@@ -66,8 +66,8 @@ rel  = "sitemap"
 [taxonomies]
   contributor = "contributors"
 
-[permalinks]
-  blog = "/blog/:title/"
+# [permalinks]
+#   blog = "/blog/:title/"
 
 [module]
   [[module.mounts]]
