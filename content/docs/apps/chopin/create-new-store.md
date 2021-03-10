@@ -1,7 +1,7 @@
 ---
 title: "Create New Store"
-description: "A new store can be created in five simple steps."
-lead: "A new store can be created in five simple steps."
+description: "Create new chopin store in five simple steps."
+lead: "Create new chopin store in five simple steps."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,7 +15,7 @@ toc: true
 
 ### 1. Open Chopin Stores Flow
 
-Go to [Chopin Store Flow](https://telescope.apiobuild.com/flow/chopin-stores).
+Go to [Chopin Store Flow](https://telescope.apiobuild.com/flow/chopin-stores) on [Telescope](https://telescope.apiobuild.com/).
 
 ### 2. Name the Store
 
@@ -45,6 +45,6 @@ You can enable email confirmation with any Gmail account. Click <i class="fas fa
 
 ### 🎉 Open for Business
 
-That's it! You are now a proud owner of a Chopin store. Visit your new store or go to [Chopin App](https://telescope.apiobuild.com/app/chopin) to configure your store.
+That's it! You are now a proud owner of Chopin store. Visit your new store or go to [Chopin App](https://telescope.apiobuild.com/app/chopin) to configure your store.
 
 Happy “chopin”! 🛍️
