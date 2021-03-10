@@ -1,6 +1,6 @@
 [[main]]
   name = "Docs"
-  url = "/docs/introduction/introduction/"
+  url = "/docs/introduction/introduction"
   weight = 10
 
 [[docs]]
@@ -8,6 +8,12 @@
   identifier = "introduction"
   url = "/docs/introduction/introduction/"
   weight = 10
+
+[[docs]]
+  name = "Chopin"
+  identifier = "chopin"
+  url = "/docs/apps/chopin/"
+  weight = 20
 
 # [[main]]
 #   name = "Blog"
