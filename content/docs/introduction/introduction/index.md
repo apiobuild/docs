@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "introduction"
-weight: 100
+weight: 10
 toc: true
 ---
 
@@ -54,6 +54,3 @@ We are always here to talk. [Find a time to chat →](https://calendly.com/apiob
 ## Contribute
 
 We are currently closed-source platform. However, we have ambitious plan to open-source our entire platform. [Signup here →](/developer-sign-up)
-
-<!-- ## Help
-Get help on Doks. [Help →]({{< ref "how-to-update" >}}) -->

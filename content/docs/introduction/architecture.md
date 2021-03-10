@@ -9,19 +9,9 @@ images: []
 menu:
   docs:
     parent: "introduction"
-weight: 0
+weight: 30
 toc: true
 ---
-
-## Philosophy
-
-Our engineering team has built and architected software for enterprise, consulting services, and start-ups. We recognize that technology and data analytics are essential to any business that strive to deliver best in class customer experience.
-
-It's no a coincidence that Amazon is both the leader in e-commerce and technology. Technology along cannot create the next best consumer product from thin air, however, it could transform an ordinary stationary bike into Paleton.
-
-We want to empower those with the ambition and imagination. Let us build the technology so that you could share your passion with the world.
-
-With years of experience, our team of engineers pride ourselves in building robust software supporting core business operations and automations that could scale as our customers grow and be flexible for specialized business needs.
 
 ## Serverless
 
@@ -34,9 +24,3 @@ With years of experience, our team of engineers pride ourselves in building robu
 ## API
 
 [API](https://en.wikipedia.org/wiki/API) describes the mechanism how software applications communicate with each other. Any "communication" point of the applications on our platform is designed to be easily swappable with either internal or external APIs.
-
-## Summary
-
-There's much more to be discussed how software should and could be built. We'd like to propose a different future in SaaS development: an open sourced low code SaaS platform. Platforms such as Shopify, Salesforce, WordPress and many others allow third party developers to publish "plugins". As powerful as they are, it's simply not as scalable and impactful to build upon a closed source platform.
-
-In the near future, we'd like to open source all of our application codebase. We strongly believe, softwares are built better when there's a community of developer and users. If the barrier between powerful software and non-technical users is a curated platform, we are here to make that happen and empower anyone to leverage some of most powerful software used by the biggest tech organizations in the world.
