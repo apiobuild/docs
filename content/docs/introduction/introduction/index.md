@@ -49,7 +49,11 @@ See what others have build with apio. [Showcase →](/showcase)
 
 ## Contact Us
 
-We are always here to talk. [Find a time to chat →](https://calendly.com/apiobuild)
+We are always here to talk.
+
+[Find a time to chat →](https://calendly.com/apiobuild)
+
+[Contact customer support →](https://m.me/apiobuild)
 
 ## Contribute
 
