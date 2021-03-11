@@ -1,7 +1,7 @@
 ---
 title: "Product Configuration"
-description: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
-lead: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
+description: "Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet."
+lead: "Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -12,10 +12,6 @@ menu:
 weight: 230
 toc: true
 ---
-
-[Checkout How to Create New Store →]({{< ref "create-new-store" >}})
-
-After the store is created. Go to [Chopin App on Telescope](https://telescope.apiobuild.com/app/chopin) to add customization and configuration for your store.
 
 By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat. To add and update products, go to catalog google sheet.
 
@@ -38,7 +34,7 @@ Unique name/id starts with any alphabet and contains **only dashes (-), undersco
 
 Product names that will appear on the store page, they can be **any language, symbol, and even emoji 🤩**.
 
-### description (optional)
+### description *(optional)*
 
 {{< alert icon="💡" text="<a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>Learn more about markdown →</a>" >}}
 
@@ -55,11 +51,11 @@ URL of the product image(s). Multiple image urls can be separated by comma (,).
 
 Product price, no need to enter "$" (dollar sign).
 
-### max_qty (optional)
+### max_qty *(optional)*
 
 Maximum quantity that **one customer** can buy. If max_qty = 0, it will show 'Coming Soon'
 
-### category (optional)
+### category *(optional)*
 
 To allow customer to filter products. Multiple categories can be separated by comma (,).
 
