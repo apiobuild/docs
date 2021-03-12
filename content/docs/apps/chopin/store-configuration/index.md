@@ -74,71 +74,15 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 ## Order Settings
 
-### Currency `NEW`
-
-{{< alert icon="💡" text="<a href='https://en.wikipedia.org/wiki/ISO_4217#Active_codes' target='_blank'>Learn more about currency code →</a>" >}}
-
-Currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
-
-### Order Form
-
-{{< alert icon="💡" text="Use note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers." >}}
-
-Order for input fields. By default, we only require customers to input in their email. You can make other fields you need from customers required.
-
-- Name
-- Phone Number
-- Address
-- Remove Customer Address Field: If you sell digital products or offer store pick-up only, you might not need to collect addesses from customers.
-- Add Optional Note Section: To add a field for customers to input any notes.
-
-{{< img src="c_order_1_21.png" >}}
-
-### Order Minimum
-
-Your customers' order total has to greater than the minimum amount set to be able to place the order.
-
-### Order Confirmation
-
-[Checkout How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
+[Checkout Order Settings Docs →]({{< ref "order-settings" >}})
 
 ## Contact Information
 
-### Email
+[Checkout Contact Information Docs →]({{< ref "contact-information" >}})
 
-The email address is default to the email you used to sign into Telescope. You can update to a different email. The email address is also used to send order confirmation emails.
+## Shipping, Discount and Tax
 
-[Checkout How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
-
-### Facebook
-
-Full url to your facebook page or group (eg. https://www.facebook.com/apiobuild)
-
-### Instagram
-
-Instagram handle without @, not the full url (eg. apiobuild)
-
-### LINE
-
-<!-- TODO: move tutorial here -->
-
-{{< alert icon="💡" text="<a href='https://apiobuild.com/blog/troubleshoot-chopin-store/#how-to-retrieve-line-url' target='_blank'>Learn more how to create LINE URL →</a>" >}}
-
-URL to your LINE account or LINE group.
-
-### Phone Number
-
-Start with country code (US: +1) and without dash nor parenthesis (eg. +17181234567).
-
-### Twitter `NEW`
-
-Twitter handle without @ (eg. apiobuild).
-
-### WhatsApp `NEW`
-
-WhatsApp number with country code and without dash, +, nor parenthesis (eg. 12121234567).
-
-{{< img src="d_contact_info.png" >}}
+[Checkout Shipping, Discount and Tax Docs →]({{< ref "order-settings" >}})
 
 ## Waitress API
 
