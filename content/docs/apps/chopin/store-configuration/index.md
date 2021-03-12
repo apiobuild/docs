@@ -74,7 +74,7 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 ## Order Settings
 
-### Store Currency `NEW`
+### Currency `NEW`
 
 {{< alert icon="💡" text="<a href='https://en.wikipedia.org/wiki/ISO_4217#Active_codes' target='_blank'>Learn more about currency code →</a>" >}}
 
@@ -140,3 +140,8 @@ WhatsApp number with country code and without dash, +, nor parenthesis (eg. 1212
 
 {{< img src="d_contact_info.png" >}}
 
+## Waitress API
+
+These are auto-generated when the store was created.
+
+By default we use apio's own [Waitress API](https://telescope.apiobuild.com/app/waitress) as catalog and order APIs. We welcome you to bring your own API, [drop us a message →](/docs/introduction/introduction/#contact-us).

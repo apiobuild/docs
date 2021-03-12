@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "chopin"
-weight: 260
+weight: 270
 toc: true
 ---
 
@@ -25,7 +25,7 @@ We currently support [Stripe](https://stripe.com/payments) as our online payment
 
 [Contact us](/docs/introduction/introduction/#contact-us) to integrate Stripe account with your Chopin store.
 
-{{< alert icon="💡" text="<a href='https://stripe.com/pricing' target='_blank'>Learn more about stripe pricing →</a>" >}}
+{{< alert icon="💡" text="<a href='https://stripe.com/pricing' target='_blank'>Learn more about Stripe pricing →</a>" >}}
 
 Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted directly from your any payment you received via stripe. apio doesn't take additional cut from your profits! Click links below for more detailed pricing.
 
