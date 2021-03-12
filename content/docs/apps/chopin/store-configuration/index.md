@@ -29,7 +29,7 @@ The store name used when [creating the store]({{< ref "create-new-store" >}}). T
 
 ### Logo url *(optional)*
 
-<!-- TODO: add image url bulb -->
+{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#images'>How to create image url?</a>" >}}
 
 Give your store a logo.
 

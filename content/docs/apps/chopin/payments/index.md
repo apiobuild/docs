@@ -21,7 +21,7 @@ Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they
 
 ## Online Payment Processors
 
-We currently support [Stripe](https://stripe.com/payments) as our online payment processor. This allows customers pay with credit cards. 
+We currently support [Stripe](https://stripe.com/payments) as our online payment processor. This allows customers pay with credit cards.
 
 [Contact us](/docs/introduction/introduction/#contact-us) to integrate Stripe account with your Chopin store.
 
@@ -29,8 +29,7 @@ We currently support [Stripe](https://stripe.com/payments) as our online payment
 
 Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted directly from your any payment you received via stripe. apio doesn't take additional cut from your profits! Click links below for more detailed pricing.
 
-<!-- TODO: stripe vs paypal -->
-{{< alert icon="💡" text="<a href='https://apiobuild.com/blog/troubleshoot-chopin-store/#difference-between-stripe-and-paypal-business' target='_blank'>Read more on Stripe vs Paypal →</a>" >}}
+{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#difference-between-stripe-and-paypal-business'>Read more on Stripe vs Paypal →</a>" >}}
 
 <span style="display: none">
 - [PayPal](https://www.paypal.com/us/webapps/mpp/merchant-fees)
@@ -47,7 +46,7 @@ We also support popular manual payment options across North America. Manual paym
 
 {{< alert icon="💡" text="<a href='https://www.paypal.com/paypalme/' target='_blank'>Learn more about Paypal.Me →</a>" >}}
 
-<!-- TODO: add how-to ref -->
+{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme'>Learn more about how to use create Paypal.Me →</a>" >}}
 
 Provide your Paypal.Me link. It should look like: `https://www.paypal.me/youraccount`. This is the only manual payment which we can auto-generate the order total amount for customers during checkout. We recommend it over other manual options.
 

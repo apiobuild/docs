@@ -31,11 +31,9 @@ Instagram handle without @, not the full url (eg. apiobuild)
 
 ### LINE
 
-<!-- TODO: move tutorial here -->
+{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#how-to-retrieve-line-url'>Learn more how to create LINE url →</a>" >}}
 
-{{< alert icon="💡" text="<a href='https://apiobuild.com/blog/troubleshoot-chopin-store/#how-to-retrieve-line-url' target='_blank'>Learn more how to create LINE URL →</a>" >}}
-
-URL to your LINE account or LINE group.
+url to your LINE account or LINE group.
 
 ### Phone Number
 

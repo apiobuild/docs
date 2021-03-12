@@ -42,10 +42,9 @@ More information about the product. Styling with markdown is supported.
 
 ### image_url
 
-<!-- TODO: Add Link -->
-{{< alert icon="💡" text="<a href=''>Why is image url not working?</a>" >}}
+{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#images'>Why is image url not working?</a>" >}}
 
-URL of the product image(s). Multiple image urls can be separated by comma (,).
+url of the product image(s). Multiple image urls can be separated by comma (,).
 
 ### price
 
