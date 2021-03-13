@@ -15,6 +15,12 @@
   url = "/docs/apps/chopin/"
   weight = 20
 
+[[docs]]
+  name = "Waitress"
+  identifier = "waitress"
+  url = "/docs/apps/waitress/"
+  weight = 30
+
 # [[main]]
 #   name = "Blog"
 #   url = "/blog/"

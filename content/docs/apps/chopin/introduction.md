@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "What's Chopin"
 description: "Chopin is an e-commerce app that creates online stores with google sheets and gmail. The app is created seeing small merchants collecting orders with google forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
 lead: "Chopin is an e-commerce app that creates online stores with google sheets and gmail. The app is created seeing small merchants collecting orders with google forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
 date: 2020-10-06T08:48:57+00:00
@@ -13,7 +13,7 @@ weight: 210
 toc: true
 ---
 
-**[Chopin by apio](https://chopin.apiobuild.com/) is a lightweight online store creator** serveing lightweight online store web app with basic information and two google sheets (one for catalog and one for order).
+[Chopin by apio](https://chopin.apiobuild.com/) is a lightweight online store creator serveing lightweight online store web app with basic information and two google sheets (one for catalog and one for order).
 
 ## Demo
 
