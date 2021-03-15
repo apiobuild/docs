@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Waitress on </title>
+    <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/</link>
+    <description>Recent content in Waitress on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s Waitress</title>
+      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/introduction/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/introduction/</guid>
+      <description>💡 Learn more about CRUD →  Waitress by apio allows users to quickly prototype complex APIs and use Google Sheets as a lightweight (and FREE) document store for your applications.
+Use Case Collect Email Signup On apiobuild.com , we&amp;rsquo;ve also leveraged Waitress as a way to collect emails.
+The functionality is integrated directly on Goldfish (One Page Website Creator) to allow Goldfish users to collect emails to google sheets on their one page websites.</description>
+    </item>
+    
+    <item>
+      <title>Create Email Signup Form</title>
+      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/email-signup/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/email-signup/</guid>
+      <description>Navigate to Waitress App on Telescope to start.
+1. Create New Google Sheet Create a new google sheets → You don&amp;rsquo;t need to create a new one if you wish to use an existing one. Just go to the one you wish to use and follow the instruction on Telescope:
+💡 Pop-up blocker could disable the login window. Allow or disable pop-up blocker if you are not able to sign-in.   Click Share on the top right of the google sheet Share to waitress-dev@apio-277201.</description>
+    </item>
+    
+  </channel>
+</rss>

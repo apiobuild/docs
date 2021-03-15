@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on </title>
+    <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/</link>
+    <description>Recent content in Introduction on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/introduction/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/introduction/</guid>
+      <description>Mission At apio, we truly believe that no matter the size of the business, everyone should have access to high quality software tailored for business needs at affordable cost. Not every business can afford enterprise business software to offer streamlined customer experience; however, we pride ourselves in building easy-to-use yet flexible software that helps small business owner to provide best in class customers experience while keeping the warmth in the relationship.</description>
+    </item>
+    
+    <item>
+      <title>Mission Statement</title>
+      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/mission_statement/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/mission_statement/</guid>
+      <description>Philosophy Our engineering team has built and architected software for enterprise, consulting services, and start-ups. We recognize that technology and data analytics are essential to any business that strive to deliver best in class customer experience.
+It&amp;rsquo;s no a coincidence that Amazon is both the leader in e-commerce and technology. Technology along cannot create the next best consumer product from thin air, however, it could transform an ordinary stationary bike into Paleton.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/architecture/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/architecture/</guid>
+      <description>Serverless Serverless computing is core to our design pattern. Applications on our platform are designed to be &amp;ldquo;stateless&amp;rdquo; where database can be easily scaled or replaced as needed. This has also allowed us to keep the platform cost low for customers with less need on performance.
+Microservice Microservice is debatable term. In software architecture, it commonly implies the applications are organized around specific functionality and loosely coupled. In order to keep our services flexible and easily extendable, each application on our platform supports specific functionality.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preload" as="font" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/main.adb50a990d141bed09b8e837684b57c62cc8cfa21e3cb6213f670d483f178c7f79cf11afb0c19b0f9af7120a3be5b3ae735f5aac09712adf6f7e63f146dc69ce.css" integrity="sha512-rbUKmQ0UG&#43;0JuOg3aEtXxizIz6IePLYhP2cNSD8XjH95zxGvsMGbD5r3Ego75bOuc19arAlxKt9vfmPxRtxpzg==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Product Configuration | apio</title>
+<meta name="description" content="Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet.">
+<link rel="canonical" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/">
+<meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="%20%27apiobuild.com/docs%27%20--gc%20--minify/logo_square.png">
+    <meta name="twitter:title" content="Product Configuration">
+<meta name="twitter:description" content="Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet.">
+
+<meta name="twitter:site" content="@l1990790120">
+<meta name="twitter:creator" content="@l1990790120">
+
+<meta property="og:title" content="Product Configuration">
+<meta property="og:description" content="Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/">
+
+  <meta property="og:image" content="%20%27apiobuild.com/docs%27%20--gc%20--minify/logo_square.png"/>
+    <meta property="article:published_time" content="2020-10-06T08:48:57+00:00">
+  <meta property="article:modified_time" content="2020-10-06T08:48:57+00:00">
+  <meta property="og:site_name" content="apio">
+
+<meta property="article:publisher" content="https://www.facebook.com/l1990790120">
+<meta property="article:author" content="https://www.facebook.com/l1990790120">
+<meta property="og:locale" content="en_US">
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "name": "Home",
+        "item": "%20%27apiobuild.com\/docs%27%20--gc%20--minify"
+    },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "name": "Docs",
+        "item": "%20%27apiobuild.com\/docs%27%20--gc%20--minify\/docs\/"
+    },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "name": "Apps",
+        "item": "%20%27apiobuild.com\/docs%27%20--gc%20--minify\/docs\/apps\/"
+    },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "name": "Chopin",
+        "item": "%20%27apiobuild.com\/docs%27%20--gc%20--minify\/docs\/apps\/chopin\/"
+    },{
+        "@type": "ListItem",
+        "position":  6 ,
+        "name": "Product Configuration",
+        "item": "%20%27apiobuild.com\/docs%27%20--gc%20--minify\/docs\/apps\/chopin\/product-configuration\/"
+    }]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/logo_square.png">
+<link rel="icon" type="image/png" sizes="32x32" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/logo_square.png">
+<link rel="icon" type="image/png" sizes="16x16" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/logo_square.png">
+<link rel="manifest" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/site.webmanifest">
+  
+</head>
+  <body class="docs single">
+    <div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+  <div class="container">
+    <input class="menu-btn order-0" type="checkbox" id="menu-btn">
+    <label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+    <a class="navbar-brand order-1 order-md-0 me-auto" href="https://apiobuild.com" target="_blank">apio</a>
+    <button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <ul class="navbar-nav social-nav order-3 order-md-5">
+      </ul>
+    <div class="collapse navbar-collapse order-4 order-md-1">
+      <ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class="nav-item">
+            <a class="nav-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/">Home</a>
+          </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/introduction">Docs</a>
+          </li>
+        </ul>
+      <div class="break order-6 d-md-none"></div>
+      <form class="navbar-form flex-grow-1 order-7 order-md-3">
+        <input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off">
+        <div id="suggestions" class="shadow bg-white rounded"></div>
+      </form>
+      </div>
+  </div>
+</header>
+    <div class="wrap container" role="document">
+      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar">
+			<nav class="docs-links" aria-label="Main navigation">
+				<h3>Docs</h3>
+  <ul class="list-unstyled">
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/introduction/">Overview</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/mission_statement/">Mission Statement</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/introduction/architecture/">Architecture</a></li>
+    </ul>
+  <h3>Chopin</h3>
+  <ul class="list-unstyled">
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/introduction/">What&#39;s Chopin</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/create-new-store/">Create New Store</a></li>
+    <li><a class="docs-link active" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/">Product Configuration</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/">Multi Option Products</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/store-configuration/">Store Configuration</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/order-settings/">Order Settings</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/payments/">Payments</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/contact-information/">Contact Information</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/email-confirmation/">Email Confirmation</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/troubleshoot/">Troubleshooting</a></li>
+    </ul>
+  <h3>Waitress</h3>
+  <ul class="list-unstyled">
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/introduction/">What&#39;s Waitress</a></li>
+    <li><a class="docs-link" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/waitress/email-signup/">Create Email Signup Form</a></li>
+    </ul>
+  
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+    <h3>On this page</h3>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#name">name</a></li>
+        <li><a href="#nickname">nickname</a></li>
+        <li><a href="#description-optional">description <em>(optional)</em></a></li>
+        <li><a href="#image_url">image_url</a></li>
+        <li><a href="#price">price</a></li>
+        <li><a href="#max_qty-optional">max_qty <em>(optional)</em></a></li>
+        <li><a href="#category-optional">category <em>(optional)</em></a></li>
+        <li><a href="#hide">hide</a></li>
+        <li><a href="#no_tax">no_tax</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>Product Configuration</h1>
+			<p class="lead">Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet.</p>
+			<p>By default, <a href="https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47" target="_blank">your store would look like below.</a>
+ We are pretty sure you&rsquo;re not selling Cool Cat and Funny Cat. To add and update products, go to catalog google sheet.</p>
+<figure>
+  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_20x0_resize_box_2.png" data-srcset="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_900x0_resize_box_2.png 900w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_800x0_resize_box_2.png 800w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_700x0_resize_box_2.png 700w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_600x0_resize_box_2.png 600w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_500x0_resize_box_2.png 500w" width="3104" height="1974" >
+  <noscript><img class="img-fluid" sizes="100vw" srcset="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_900x0_resize_box_2.png 900w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_800x0_resize_box_2.png 800w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_700x0_resize_box_2.png 700w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_600x0_resize_box_2.png 600w,%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products_huae1db02c52773c60cf35a40dc8d073ac_1685068_500x0_resize_box_2.png 500w" src="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/default-products.png" width="3104" height="1974" ></noscript>
+  
+</figure>
+
+<div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">💡</div>
+  <div class="w-100">You can find google sheet url on the Waitress API section of the Chopin App. <img src='waitress-api.png' style='width: 100%'> </div>
+</div>
+<p>Edit product details by updating the following fields on the catalog google sheet:</p>
+<div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">⚠️</div>
+  <div class="w-100">There should not be any empty line(s) between rows</div>
+</div>
+<div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">⚠️</div>
+  <div class="w-100">Only items with valid 'name' and 'price' will be shown</div>
+</div>
+<h3 id="name">name<a href="#name" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Unique name/id starts with any alphabet and contains <strong>only dashes (-), underscores (_), and alphanumeric are allowed</strong> for each product. No spaces.</p>
+<h3 id="nickname">nickname<a href="#nickname" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Product names that will appear on the store page, they can be <strong>any language, symbol, and even emoji 🤩</strong>.</p>
+<h3 id="description-optional">description <em>(optional)</em><a href="#description-optional" class="anchor" aria-hidden="true">#</a> </h3>
+<div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">💡</div>
+  <div class="w-100"><a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>Learn more about markdown →</a></div>
+</div>
+<p>More information about the product. Styling with markdown is supported.</p>
+<h3 id="image_url">image_url<a href="#image_url" class="anchor" aria-hidden="true">#</a> </h3>
+<div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">💡</div>
+  <div class="w-100"><a href='/docs/apps/chopin/troubleshoot/#images'>Why is image url not working?</a></div>
+</div>
+<p>url of the product image(s). Multiple image urls can be separated by comma (,).</p>
+<h3 id="price">price<a href="#price" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Product price, no need to enter &ldquo;$&rdquo; (dollar sign).</p>
+<h3 id="max_qty-optional">max_qty <em>(optional)</em><a href="#max_qty-optional" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Maximum quantity that <strong>one customer</strong> can buy. If max_qty = 0, it will show &lsquo;Coming Soon&rsquo;</p>
+<h3 id="category-optional">category <em>(optional)</em><a href="#category-optional" class="anchor" aria-hidden="true">#</a> </h3>
+<p>To allow customer to filter products. Multiple categories can be separated by comma (,).</p>
+<h3 id="hide">hide<a href="#hide" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Enter &ldquo;x&rdquo; (or any other characters), this product will not appear on your store.</p>
+<h3 id="no_tax">no_tax<a href="#no_tax" class="anchor" aria-hidden="true">#</a> </h3>
+<p>Enter &ldquo;x&rdquo; (or any other characters), sales tax won&rsquo;t apply to this product.</p>
+
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/create-new-store/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Create New Store
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Multi Option Products &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container">
+    <div class="row">
+      <div class="col col-16 text-center">
+        Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽
+      </div>
+      <div class="col col-16 text-center">
+        <a href="https://apiobuild.com/privacy-policy" target="_blank"
+          >Privacy Policy</a
+        >
+        &
+        <a href="https://apiobuild.com/terms-of-service" target="_blank"
+          >Terms of Service</a
+        >
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+    
+    <script src="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/main.min.b607b7dee5a77a506c3ef65b7eb3e32c9e43e365c8fb0c4034fe115ad267eabd2e6e1cd96949d1b94a040d9335f15aba5a21f0302be4c73b08a510e698aff05e.js" integrity="sha512-tge33uWnelBsPvZbfrPjLJ5D42XI&#43;wxANP4RWtJn6r0ubhzZaUnRuUoEDZM18Vq6WiHwMCvkxzsIpRDmmK/wXg==" crossorigin="anonymous" defer></script>
+  <script src="%20%27apiobuild.com/docs%27%20--gc%20--minify/%20%27apiobuild.com/docs%27%20--gc%20--minify/index.min.11ec756b49a28d957a165d0fc65f629022ddcb859a1a469e9461f0dded17e5d85178072db6d47741a5d36de229a1a0a336ab821e995a76776ef6275bf8cec809.js" integrity="sha512-Eex1a0mijZV6Fl0Pxl9ikCLdy4WaGkaelGHw3e0X5dhReActttR3QaXTbeIpoaCjNquCHpladndu9idb&#43;M7ICQ==" crossorigin="anonymous" defer></script>
+  
+  </body>
+</html>
