@@ -26,5 +26,5 @@ jobs:
         git commit -m "Publishing to master"
         git push
       env:
-        GITHUB_EMAIL: ${{ secrets.GITHUBEMAIL }}
-        GITHUB_USER: ${{ secrets.GITHUBUSER }}  
+        GITHUB_EMAIL: ${{ secrets._GITHUB_EMAIL }}
+        GITHUB_USER: ${{ secrets._GITHUB_USER }}  
