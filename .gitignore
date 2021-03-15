@@ -1,2 +1,6 @@
-.DS_Store
+functions
+node_modules
+public
+resources
 .vscode/**
+.DS_Store
