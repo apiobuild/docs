@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: %20%27%27%20--gc%20--minify/sitemap.xml
+Sitemap: /sitemap.xml
