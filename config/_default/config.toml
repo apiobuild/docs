@@ -61,7 +61,7 @@ rel  = "sitemap"
     lineNos = false
     lineNumbersInTable = true
     noClasses = false
-    style = "dracula"
+    style = "monokailight"
     tabWidth = 4
 
 [sitemap]

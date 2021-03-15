@@ -17,8 +17,7 @@ By default, [your store would look like below.](https://chopin.apiobuild.com/goo
 
 {{< img src="default-products.png" >}}
 
-{{< alert icon="💡" text="You can find google sheet url on the Waitress API section of the Chopin App." >}}
-{{< img src="waitress-api.png" >}}
+{{< alert icon="💡" text="You can find google sheet url on the Waitress API section of the Chopin App. <img src='waitress-api.png' style='width: 100%'> " >}}
 
 Edit product details by updating the following fields on the catalog google sheet:
 
