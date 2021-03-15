@@ -4,26 +4,26 @@
 title = "apio"
 titleSeparator = "|"
 titleAddition = "Low Code SaaS Platform"
-description = "apio is a low code microservice platform built for small businesses, entrepreneurs and beyond."
+description = "apio is a low code SaaS platform built for small businesses, entrepreneurs and beyond."
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
-twitterSite = "henkverlinde"
-twitterCreator = "henkverlinde"
-facebookAuthor = "verlinde.henk"
-facebookPublisher = "verlinde.henk"
+images = ["logo_square.png"]
+twitterSite = "l1990790120"
+twitterCreator = "l1990790120"
+facebookAuthor = "l1990790120"
+facebookPublisher = "l1990790120"
 ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
-schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/h-enk"
+schemaLogo = "logo_square.png"
+schemaTwitter = "https://twitter.com/l1990790120"
+schemaLinkedIn = "https://www.linkedin.com/company/apiobuild/"
+schemaGitHub = "https://github.com/apiobuild"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
-siteLinksSearchBox = false
+siteLinksSearchBox = true
 
 ## Chrome Browser
 themeColor = "#fff"
