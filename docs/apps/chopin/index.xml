@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chopin on </title>
-    <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/</link>
+    <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/</link>
     <description>Recent content in Chopin on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="%20%27%27%20--gc%20--minify/docs/apps/chopin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s Chopin</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/introduction/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/introduction/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/introduction/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/introduction/</guid>
       <description>Chopin by apio is a lightweight online store creator serveing lightweight online store web app with basic information and two google sheets (one for catalog and one for order).
 Demo Go to demo store → Learn more → Use Case There are many online store builders you can choose from. While the basic plan can be as low as $18 per month, these costs can add up quickly as the business grow.</description>
     </item>
     
     <item>
       <title>Create New Store</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/create-new-store/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/create-new-store/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/create-new-store/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/create-new-store/</guid>
       <description>1. Open Chopin Stores Flow Go to Chopin Store Flow on Telescope .
 2. Name the Store ⚠️ Store name cannot be changed later, but you can always create a new store.  The name will be shown on top of the store.
 3. Create Catalog Google Sheet Follow the steps on the flow to create a new google sheet as your catalog, this where you can add product details and prices.</description>
@@ -30,10 +30,10 @@ Demo Go to demo store → Learn more → Use Case There are many online store bu
     
     <item>
       <title>Product Configuration</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/product-configuration/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/product-configuration/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/product-configuration/</guid>
       <description>By default, your store would look like below. We are pretty sure you&amp;rsquo;re not selling Cool Cat and Funny Cat. To add and update products, go to catalog google sheet.
    💡 You can find google sheet url on the Waitress API section of the Chopin App.   Edit product details by updating the following fields on the catalog google sheet:
 ⚠️ There should not be any empty line(s) between rows  ⚠️ Only items with valid &#39;name&#39; and &#39;price&#39; will be shown  name Unique name/id starts with any alphabet and contains only dashes (-), underscores (_), and alphanumeric are allowed for each product.</description>
@@ -41,20 +41,20 @@ Demo Go to demo store → Learn more → Use Case There are many online store bu
     
     <item>
       <title>Multi Option Products</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/multi-option-product-configuration/</guid>
       <description>This is especially helpful if you are selling:
  Clothes with different colors and sizes Food with different flavors Crafts with different patterns Events with different dates  Checkout How to Add Products with Single Option → Checkout Demo Boutique Store → 💡 Store layout for single option and multi options look a little different. We suggest you organize all multi option products together.  To configure multi option products, simply add the following columns to the catalog google sheet:</description>
     </item>
     
     <item>
       <title>Store Configuration</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/store-configuration/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/store-configuration/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/store-configuration/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/store-configuration/</guid>
       <description>Checkout How to Create New Store → After the store is created. Go to Chopin App on Telescope to add customization and configuration for your store.
 Store Info General store information shown to anyone visiting your store and social media shares.
    Store Name The store name used when creating the store . This cannot be modified.
@@ -63,30 +63,30 @@ Logo url (optional) 💡 How to create image url?  Give your store a logo.</desc
     
     <item>
       <title>Order Settings</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/order-settings/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/order-settings/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/order-settings/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/order-settings/</guid>
       <description>Don&amp;rsquo;t see a customization that fits your need? Drop us a message → Order Settings Currency NEW 💡 Learn more about currency code →  Currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
 Order Form 💡 Use note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers.</description>
     </item>
     
     <item>
       <title>Payments</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/payments/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/payments/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/payments/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/payments/</guid>
       <description>Each payment method will appear as a button on your store. If you don&amp;rsquo;t add any payment options, there will be a &amp;ldquo;Submit Order&amp;rdquo; button. You can enable as many payment options as you&amp;rsquo;d like.
 Visit our Demo Store and see how they work in real world. If you don&amp;rsquo;t see your preferred payment methods, drop us a message →    Online Payment Processors We currently support Stripe as our online payment processor.</description>
     </item>
     
     <item>
       <title>Contact Information</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/contact-information/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/contact-information/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/contact-information/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/contact-information/</guid>
       <description>Contact Information Email The email address is default to the email you used to sign into Telescope. You can update to a different email. The email address is also used to send order confirmation emails.
 Checkout How to Configure Order Confirmation Email → Facebook Full url to your facebook page or group (eg. https://www.facebook.com/apiobuild)
 Instagram Instagram handle without @, not the full url (eg. apiobuild)
@@ -95,10 +95,10 @@ LINE 💡 Learn more how to create LINE url →  url to your LINE account or LIN
     
     <item>
       <title>Email Confirmation</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/email-confirmation/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/email-confirmation/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/email-confirmation/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/email-confirmation/</guid>
       <description>Send Order Confirmation Enable this feature to send an automated email order confirmation after the customer place an order.
 Order Confirmation Email Subject Customize the subject of order confirmation email. Use &amp;lt;store_name&amp;gt; and &amp;lt;order_number&amp;gt; to show the name of your store and the order number.
 Default subject line is &amp;ldquo;Your Order from &amp;lt;store_name&amp;gt; [&amp;lt;order_number&amp;gt;]”.
@@ -107,10 +107,10 @@ Default subject line is &amp;ldquo;Your Order from &amp;lt;store_name&amp;gt; [&
     
     <item>
       <title>Troubleshooting</title>
-      <link>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/troubleshoot/</link>
+      <link>%20%27%27%20--gc%20--minify/docs/apps/chopin/troubleshoot/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
-      <guid>%20%27apiobuild.com/docs%27%20--gc%20--minify/docs/apps/chopin/troubleshoot/</guid>
+      <guid>%20%27%27%20--gc%20--minify/docs/apps/chopin/troubleshoot/</guid>
       <description>Not getting answers for your questions? Drop us a message → Catalog Google Sheet  There should be no empty lines between rows. name of each product can not be empty nor can be characters other than numbers or alphabets. No spaces either. Product names must be unique.  No products shown  All products must have price and name otherwise they won&amp;rsquo;t be shown. Do not remove the existing catalog headers copied from tutorial.</description>
     </item>
     
