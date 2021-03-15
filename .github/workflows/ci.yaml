@@ -14,6 +14,7 @@ jobs:
         echo "checkout to master as worktree"
         git worktree prune && git worktree add -B master public origin/master
         
+        npm install
         echo "generate static content in public"
         docker run --rm -v $(pwd):/site -v $(pwd)/public:/site/public \
           l1990790120/hugo:0.80.0-p "-b 'docs.apiobuild.com' --gc --minify" && \
