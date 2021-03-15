@@ -1,18 +1,30 @@
 <footer class="footer text-muted">
   <div class="container">
     <div class="row">
+      <div class="col col-16 text-center">
+        Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽
+      </div>
+      <div class="col col-16 text-center">
+        <a href="/privacy-policy">Privacy Policy</a> &
+        <a href="/terms-of-service">Terms of Service</a>
+      </div>
+      <!--
       <div class="col-lg-8 order-last order-lg-first">
         <ul class="list-inline">
           <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
         </ul>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+      <div class="col-lg-8 order-last order-lg-end">
+        <!--
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          <li class="list-inline-item">
+            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+          </li>
           {{ end -}}
         </ul>
       </div>
+      -->
     </div>
   </div>
 </footer>
