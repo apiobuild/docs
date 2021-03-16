@@ -7,7 +7,6 @@ enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 7
 rssLimit = 10
-googleAnalytics = "G-RBERH65RM5"
 
 # add redirects/headers
 [outputs]
@@ -86,3 +85,6 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/flexsearch"
     target = "assets/js/vendor/flexsearch"
+
+[params]
+  GoogleAnalyticsID = "G-RBERH65RM5"

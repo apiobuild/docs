@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "/docs/introduction/introduction/" | absURL }}" role="button">Get started</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "/docs/introduction/introduction/" | relURL }}" role="button">Get started</a>
       <a class="btn btn-outline-secondary btn-lg px-4 mb-2" href="https://calendly.com/apiobuild" target="_blank">Schedule Demo</a>
       <!-- <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ .Site.Data.doks.version }}</a></p> -->
     </div>
@@ -23,7 +23,7 @@
         <p>
           There's no reason to onboard a complex platform for a fraction of functionality.
         </p>
-        <a class="btn btn-outline-secondary btn-md px-4 mb-2" href="{{ "/docs/introduction/architecture/#microservice" | absURL }}">Learn More</a>
+        <a class="btn btn-outline-secondary btn-md px-4 mb-2" href="{{ "/docs/introduction/architecture/#microservice" | relURL }}">Learn More</a>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Low Cost</h2>
