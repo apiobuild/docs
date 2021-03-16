@@ -19,7 +19,7 @@ toc: true
 
 The email address is default to the email you used to sign into Telescope. You can update to a different email. The email address is also used to send order confirmation emails.
 
-[Checkout How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
+[How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
 
 ### Facebook
 
@@ -31,7 +31,7 @@ Instagram handle without @, not the full url (eg. apiobuild)
 
 ### LINE
 
-{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#how-to-retrieve-line-url'>Learn more how to create LINE url →</a>" >}}
+{{< alert icon="💡" text="Learn more how to create LINE url →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-retrieve-line-url" >}}
 
 url to your LINE account or LINE group.
 

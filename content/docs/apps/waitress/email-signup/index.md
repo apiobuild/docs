@@ -184,4 +184,4 @@ Copy the Telescope Service Token and Waitress API Route into the following snipp
 
 ## Happy Emailing 📧
 
-That's it. We will continue to improve our process to make this even easier. Let us know if you run into any issue. [Drop us a message →](/docs/introduction/introduction/#contact-us).
+That's it. We will continue to improve our process to make this even easier. Let us know if you run into any issue. [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).

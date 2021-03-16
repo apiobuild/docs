@@ -13,7 +13,7 @@ weight: 310
 toc: true
 ---
 
-{{< alert icon="💡" text="<a href='https://en.wikipedia.org/wiki/Create,_read,_update_and_delete' target='_blank'>Learn more about CRUD →</a>" >}}
+{{< alert icon="💡" text="Learn more about CRUD →" ext-href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" >}}
 
 [Waitress by apio](https://telescope.apiobuild.com/app/waitress) allows users to quickly prototype complex APIs and use Google Sheets as a lightweight (and FREE) document store for your applications.
 
@@ -47,14 +47,14 @@ Another great example is Waitress's integration with Chopin. Chopin store can re
 
 This has save us from a lot of deployment headache and database infrastructure costs when prototyping new web app.
 
-{{< alert icon="💡" text="<a href='https://developers.google.com/apps-script/guides/sheets' target='_blank'>Learn more about App Script →</a>" >}}
+{{< alert icon="💡" text="Learn more about App Script →" ext-href="https://developers.google.com/apps-script/guides/sheets" >}}
 
 One of the very powerful usage we've discovered overtime is the ability to combine App Script along with other Google Sheets' built-in functions to mock complex API behavior that could sometimes takes weeks if not months to implement even for developers.
 
-{{< alert icon="💡" text="<a href='/docs/apps/chopin/introduction/#manage-inventory'>Read more about Chopin's Inventory Management →</a>" >}}
+{{< alert icon="💡" text="Read more about Chopin's Inventory Management →" rel-href="/docs/apps/chopin/introduction/#manage-inventory" >}}
 
 A great example is that we have helped our Chopin users to setup complex rules and functions to manage inventory. This type of backend customizations will usually takes months of development time. Both App Script and Google Sheets' built-in function have made experimenting with different business rules a lot quicker and easier.
 
 ## Summary
 
-Thought of more use cases but not sure how to use it? [Drop us a message →](/docs/introduction/introduction/#contact-us).
+Thought of more use cases but not sure how to use it? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).

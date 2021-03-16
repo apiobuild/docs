@@ -35,13 +35,13 @@ Product names that will appear on the store page, they can be **any language, sy
 
 ### description *(optional)*
 
-{{< alert icon="💡" text="<a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>Learn more about markdown →</a>" >}}
+{{< alert icon="💡" text="Learn more about markdown →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
 
 More information about the product. Styling with markdown is supported.
 
 ### image_url
 
-{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#images'>Why is image url not working?</a>" >}}
+{{< alert icon="💡" text="Why is image url not working?" rel-href="/docs/apps/chopin/troubleshoot/#images" >}}
 
 url of the product image(s). Multiple image urls can be separated by comma (,).
 

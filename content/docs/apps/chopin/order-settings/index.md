@@ -13,13 +13,14 @@ weight: 260
 toc: true
 ---
 
-Don't see a customization that fits your need? [Drop us a message →](/docs/introduction/introduction/#contact-us)
+Don't see a customization that fits your need? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Order Settings
 
 ### Currency `NEW`
 
-{{< alert icon="💡" text="<a href='https://en.wikipedia.org/wiki/ISO_4217#Active_codes' target='_blank'>Learn more about currency code →</a>" >}}
+{{< alert icon="💡" text="Learn more about currency code →" ext-href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" >}}
+
 
 Currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
 
@@ -43,7 +44,7 @@ Your customers' order total has to greater than the minimum amount set to be abl
 
 ### Order Confirmation
 
-[Checkout How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
+[How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
 
 ## Shipping
 
@@ -89,6 +90,6 @@ Percent of order total to be taken off from order total for qualified order (cat
 
 ## Tax
 
-{{< alert icon="💡" text="<a href='/docs/apps/chopin/product-configuration/#no_tax'>How to remove tax for certain products →</a>" >}}
+{{< alert icon="💡" text="Remove tax for selected products →" rel-href="/docs/apps/chopin/product-configuration/#no_tax" >}}
 
 Use this field to customize the tax rate in your area.

@@ -19,7 +19,7 @@ At apio, we truly believe that no matter the size of the business, everyone shou
 
 ## Platform Offering
 
-{{< alert icon="💡" text="<a href='/docs/introduction/architecture/#api'>Learn more about APIs →</a>" >}}
+{{< alert icon="💡" text="Learn more about APIs →" rel-href="/docs/introduction/architecture/#api" >}}
 
 The platform is consisted of standalone microservices (also available as APIs) and platform UI to create and configure workflows.
 
@@ -31,7 +31,7 @@ The platform is consisted of standalone microservices (also available as APIs) a
 
 ### App
 
-{{< alert icon="💡" text="<a href='/docs/introduction/architecture/#microservice'>Learn more about microservices →</a>" >}}
+{{< alert icon="💡" text="Learn more about microservices →" rel-href="/docs/introduction/architecture/#microservice" >}}
 
 An app is a standalone microservice with dedicated functionality. For example, **[Chopin App](https://telescope.apiobuild.com/app/chopin)** creates instant one page online store with pre-defined integrations to catalog and order services. **[Waitress App](https://telescope.apiobuild.com/app/waitress")** is a **google** sheet wrapper API to fetch and append data.
 
@@ -41,9 +41,9 @@ For technical users, each app is always available as API, API spec can be found 
 
 A flow is a simplified step by step configuration to create a full service or an automation workflow leveraging one or more microservices. For example, the **[Chopin Stores Flow](https://telescope.apiobuild.com/flow/chopin-stores)** creates an one-page online store with google sheets and gmail integration, the flow creates and configures Chopin, Waitress and Post-it app resources.
 
-## Showcase
+<!-- ## Showcase
 
-See what others have build with apio. [Showcase →](/showcase)
+See what others have build with apio. [Showcase →](/showcase) -->
 
 ## Contact Us
 
