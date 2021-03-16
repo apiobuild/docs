@@ -108,7 +108,7 @@ There are three sizes available for each color, so we are adding "S, M, L" for t
 
 ### option:color
 
-{{< alert icon="💡" text="<a href='https://htmlcolorcodes.com/color-names/' target='_blank'>Color Name List →</a>" >}}
+{{< alert icon="💡" text="Color Name List →" ext-href="https://htmlcolorcodes.com/color-names/" >}}
 
 We'll put "blue" in the `option:color` fields for all blue coats and "pink" for all pink coats.
 

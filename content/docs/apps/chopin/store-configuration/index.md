@@ -29,13 +29,13 @@ The store name used when [creating the store]({{< ref "create-new-store" >}}). T
 
 ### Logo url *(optional)*
 
-{{< alert icon="💡" text="<a href='/docs/apps/chopin/troubleshoot/#images'>How to create image url?</a>" >}}
+{{< alert icon="💡" text="How to create image url?" rel-href="/docs/apps/chopin/troubleshoot/#images" >}}
 
 Give your store a logo.
 
 ### Store Description *(optional)*
 
-{{< alert icon="💡" text="<a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>Learn more about markdown →</a>" >}}
+{{< alert icon="💡" text="Learn more about markdown →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
 
 Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters. Styling with markdown is supported.
 
@@ -51,7 +51,7 @@ Add a background image.
 
 ### Store Background Color *(optional)*
 
-{{< alert icon="💡" text="<a href='https://htmlcolorcodes.com/' target='_blank'>Learn more about hex code →</a>" >}}
+{{< alert icon="💡" text="Learn more about hex code →" ext-href="https://htmlcolorcodes.com/" >}}
 
 You can easily select color from swatch or enter a hex code.
 
@@ -88,4 +88,4 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 These are auto-generated when the store was created.
 
-By default we use apio's own [Waitress API](https://telescope.apiobuild.com/app/waitress) as catalog and order APIs. We welcome you to bring your own API, [drop us a message →](/docs/introduction/introduction/#contact-us).
+By default we use apio's own [Waitress API](https://telescope.apiobuild.com/app/waitress) as catalog and order APIs. We welcome you to bring your own API, [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).

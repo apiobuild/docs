@@ -42,7 +42,7 @@ Let Chopin help you get started.
 
 ## Features
 
-🛍️ [Latest Chopin Features →](https://apiobuild.com/blog/how-to-configure-chopin-store/)
+🛍️ [Latest Chopin Features →](https://apiobuild.com/tags/chopin/)
 
 ### Free
 
@@ -88,22 +88,34 @@ Chopin currently offers **[Stripe](https://stripe.com/payments)** for your custo
 
 You can also provide your **[Zelle](https://www.zellepay.com/)**, **[Venmo](https://venmo.com/)**, or **[PayPal.Me](https://www.paypal.com/paypalme/)** account information as manual payment options. While these manual transactions can't be verified, we will record customers' payment method in the google sheet.
 
-### Tax and Shipping Options
+### Shipping and Discount Options
 
-Depending on where your business is registered, the tax rate can be set by you. You can also set
-up [shipping rules](https://apiobuild.com/blog/how-to-configure-chopin-store/#shipping), including different destinations with different amounts and a **free shipping minimum**. 
+{{< alert icon="💡" text="Read more about how to configure shipping options →" rel-href="/docs/apps/chopin/order-settings/#shipping" >}}
 
-Chopin also supports [discount](https://apiobuild.com/blog/how-to-configure-chopin-store/#discount) function, and you can offer percentage discount or dollar value off for all of your products or just for certain categories.
+Depending on where your business is registered, the tax rate can be set by you. You can also set up shipping rules, including different destinations with different amounts and a free shipping minimum.
+
+{{< alert icon="💡" text="Read more about how to set discount →" rel-href="/docs/apps/chopin/order-settings/#discount" >}}
+
+Chopin also supports discount function, and you can offer percentage discount or dollar value off for all of your products or just for certain categories.
 
 ### Secured
 
 **All Chopin generated sites are SSL certified and meet the highest security standard**. Any sensitive data (email addresses, phone number, names etc.) are encrypted and protected from unauthorized users. This feature doesn’t just protect customers, it's also the required for many third-party services gateways (i.e. [Stripe](https://stripe.com/), [Square](https://squareup.com/), [PayPal](https://www.paypal.com/)).
 
-### Communication
+### Communicate with Customers
 
-There are many communication channels designed for you and your customers to create a flawless interaction experience. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, WhatsApp, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
+{{< alert icon="💡" text="Read more about how to configure contact information →" rel-href="/docs/apps/chopin/contact-information/" >}}
 
-Each success order comes with a **[confirmation email](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#use-case-automated-order-confirmation)** sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
+There are many communication channels designed for you and your customers to create a flawless interaction experience. Chopin enables social plug-ins so your customers can easily reach you via Phone, Email, Instagram, Facebook, WhatsApp, Line and more.
+
+{{< alert icon="💡" text="Read more about how to configure announcement →" rel-href="/docs/apps/chopin/store-configuration/#announcement-optional" >}}
+
+You also have the option to add announcement to broadcast important updates or discount information.
+
+
+{{< alert icon="💡" text="Read more about confirmation email →" rel-href="/docs/apps/chopin/email-confirmation/" >}}
+
+Each success order comes with a confirmation email sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
 
 You can also add **Facebook messenger chat** to your store, where you can provide instant automated answers and enhance customer experience. Like what we do on our website at the bottom right corner.
 

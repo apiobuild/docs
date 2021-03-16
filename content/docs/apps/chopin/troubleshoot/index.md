@@ -13,7 +13,7 @@ weight: 290
 toc: true
 ---
 
-Not getting answers for your questions? [Drop us a message →](/docs/introduction/introduction/#contact-us)
+Not getting answers for your questions? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Catalog Google Sheet
 
@@ -37,7 +37,7 @@ Check if your image urls are [direct links](#why-the-images-are-not-shown-proper
 
 ### Get notification when someone places an order?
 
-{{< alert icon="💡" text="<a href='https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop' target='_blank'>See Google's Documentation on Google Sheets Notification →</a>" >}}
+{{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop" >}}
 
 You can set up google sheet notification to get realtime updates on new order submission. On the top of your Order google sheet, click `Tools` > `Notification Rules`. Select "when" you want to receive notifications. 
 
@@ -105,7 +105,7 @@ Large images will slow down the Chopin store render time. Use services like [Tin
 
 ### Difference between Stripe and PayPal Business?
 
-{{< alert icon="💡" text="<a href='https://wpforms.com/stripe-vs-paypal-which-one-is-better/' target='_blank'>Read a more about the differences →</a>" >}}
+{{< alert icon="💡" text="Read a more about the differences →" ext-href="https://wpforms.com/stripe-vs-paypal-which-one-is-better/" >}}
 
 [Stripe](https://stripe.com/payments) and [PayPal Business](https://www.paypal.com/us/business/website-payments) both accept credit card payments and support realtime transaction verification with Chopin. **wWe recommend using Stripe** over PayPal Business.
 
@@ -132,7 +132,7 @@ With Stripe, customers can enter their credit card information directly on the C
 
 [Upgrade to Basic Plan](https://apiobuild.com/#pricing) to get an apio branded url (`chopin.apiobuild.com/<store_name>`) for as low as $5/month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
 
-{{< alert icon="💡" text="You can also use shortened url services like <a href='https://bitly.com/' target='_blank'>Bitly</a> to create shortened Chopin Store url" >}}
+{{< alert icon="💡" text="You can also use shortened url services like Bitly to create shortened Chopin Store url" ext-href="https://bitly.com/" >}}
 
 ### How to retrieve LINE url?
 
