@@ -1,4 +1,12 @@
 <div class="alert alert-warning d-flex" role="alert">
-  <div class="flex-shrink-1 alert-icon">{{ with .Get "icon" }}{{.}}{{ end }}</div>
+  <div class="flex-shrink-1 alert-icon">
+    {{ with .Get "icon" }}{{.}}{{ end }}
+  </div>
+
+  {{ with .Get "rel-href" }} <a href="{{ . | relURL }}"> {{end}}
+  {{ with .Get "ext-href" }} <a href="{{ . }}" target="_blank"> {{end}}
   <div class="w-100">{{ with .Get "text" }}{{ . | safeHTML }}{{ end }}</div>
+  {{ with .Get "rel-href" }} </a> {{end}}
+  {{ with .Get "ext-href" }} </a> {{end}}
+
 </div>
