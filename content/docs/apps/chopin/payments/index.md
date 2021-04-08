@@ -23,7 +23,7 @@ Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they
 
 We currently support [Stripe](https://stripe.com/payments) as our online payment processor. This allows customers pay with credit cards.
 
-[Contact us]({{ < ref "introduction/#contact-us" > }}) to integrate Stripe account with your Chopin store.
+[Contact us to integrate Stripe account with your Chopin store →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 {{< alert icon="💡" text="Learn more about Stripe pricing →" ext-href="https://stripe.com/pricing" >}}
 
