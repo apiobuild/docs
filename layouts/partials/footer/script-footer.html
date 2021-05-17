@@ -59,3 +59,7 @@
     <script src="{{ $index.Permalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
 {{ end -}}
+
+{{ $fa := resources.Get "js/fontawesome-free.js"}}
+{{ $fa := $fa | minify | fingerprint "sha512" -}}
+<script src="{{ $fa.Permalink }}" integrity="{{ $fa.Data.Integrity }}" crossorigin="anonymous" defer></script>
