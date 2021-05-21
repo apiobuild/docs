@@ -13,6 +13,11 @@ weight: 270
 toc: true
 ---
 
+## Order Minimum
+
+Your customers' order total has to greater than the minimum amount set to be able to place the order.
+
+
 Each payment method will appear as a **button** on your store. If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like.
 
 Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})

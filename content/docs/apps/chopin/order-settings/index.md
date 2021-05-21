@@ -19,32 +19,43 @@ Don't see a customization that fits your need? [Drop us a message →]({{<ref "/
 
 ### Currency `NEW`
 
-{{< alert icon="💡" text="Learn more about currency code →" ext-href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" >}}
-
-
 Currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
 
-### Order Form
+{{< alert icon="💡" text="Learn more about currency code →" ext-href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" >}}
 
-{{< alert icon="💡" text="Use note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers." >}}
+### User Input Fields
 
-Order for input fields. By default, we only require customers to input in their email. You can make other fields you need from customers required.
+Determine what information you'd like to collect at checkout page.
+
+By default, we only require customers to input in their email. You can check `Hide` box to eliminate certain fields or check `Require` box to make certain fields mandatory.
 
 - Name
+- Email
 - Phone Number
 - Address
-- Remove Customer Address Field: If you sell digital products or offer store pick-up only, you might not need to collect addesses from customers.
-- Add Optional Note Section: To add a field for customers to input any notes.
+- Note
 
 {{< img src="c_order_1_21.png" >}}
 
-### Order Minimum
+{{< alert icon="💡" text="Use note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers." >}}
 
-Your customers' order total has to greater than the minimum amount set to be able to place the order.
+You can also add customized fields, like dietary restriction, special request, etc.
+
+<!--
+Add example image {{< img src="c_order_1_21.png" >}}
+-->
 
 ### Order Confirmation
 
-[How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
+[How to configure order confirmation Emails →]({{< ref "email-confirmation" >}})
+
+## Contact Information
+
+[How to add contact and social media information →]({{< ref "contact-information" >}})
+
+## Payment Methods
+
+[How to configure payment methods →]({{< ref "payments" >}})
 
 ## Shipping
 

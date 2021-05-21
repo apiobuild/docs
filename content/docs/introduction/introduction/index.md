@@ -33,7 +33,7 @@ The platform is consisted of standalone microservices (also available as APIs) a
 
 {{< alert icon="💡" text="Learn more about microservices →" rel-href="/docs/introduction/architecture/#microservice" >}}
 
-An app is a standalone microservice with dedicated functionality. For example, **[Chopin App](https://telescope.apiobuild.com/app/chopin)** creates instant one page online store with pre-defined integrations to catalog and order services. **[Waitress App](https://telescope.apiobuild.com/app/waitress")** is a **google** sheet wrapper API to fetch and append data.
+An app is a standalone microservice with dedicated functionality. For example, **[Chopin App](https://telescope.apiobuild.com/app/chopin)** creates instant one page online store with pre-defined integrations to catalog and order services. **[Waitress App](https://telescope.apiobuild.com/app/waitress")** is a **Google Sheets** wrapper API to fetch and append data.
 
 For technical users, each app is always available as API, API spec can be found in the **[DOCUMENTATION](https://telescope.apiobuild.com/app/chopin/swagger)** on the app page.
 
@@ -55,4 +55,4 @@ We are always here to talk.
 
 ## Contribute
 
-We are currently closed-source platform. However, we have ambitious plan to open-source our entire platform. [Signup here →](/developer-sign-up)
+We are currently closed-source platform. However, we have ambitious plan to open-source our entire platform. <!-- [Signup here →](/developer-sign-up)-->

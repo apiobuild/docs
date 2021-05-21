@@ -13,13 +13,13 @@ weight: 250
 toc: true
 ---
 
-[Checkout How to Create New Store →]({{< ref "create-new-store" >}})
+[How to create a Chopin store →]({{< ref "create-new-store" >}})
 
 After the store is created. Go to [Chopin App on Telescope](https://telescope.apiobuild.com/app/chopin) to add customization and configuration for your store.
 
 ## Store Info
 
-General store information shown to anyone visiting your store and social media shares.
+General store information shown to anyone visiting your store and on social media sharings.
 
 {{< img src="a_store_info_21.png" >}}
 
@@ -27,46 +27,67 @@ General store information shown to anyone visiting your store and social media s
 
 The store name used when [creating the store]({{< ref "create-new-store" >}}). This cannot be modified.
 
-### Logo url *(optional)*
+### Logo url
+
+Give your store a logo. This image will also be the [favicon](https://en.wikipedia.org/wiki/Favicon) of your store.
 
 {{< alert icon="💡" text="How to create image url?" rel-href="/docs/apps/chopin/troubleshoot/#images" >}}
 
-Give your store a logo.
+### Store Description
 
-### Store Description *(optional)*
+Let your customers know what your store is about: brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters.
+
+Styling with **markdown** is supported.
+
+Default font color is white. You can change it to black in the [Layout section](/docs/apps/chopin/store-configuration/#light-page-theme).
 
 {{< alert icon="💡" text="Learn more about markdown →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
 
-Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters. Styling with markdown is supported.
-
-### Announcement *(optional)*
+### Announcement
 
 News to share with your customers.
 
 ## Layout
 
-### Store Background Image url *(optional)*
+{{< img src="b_layout_1_21.png" >}}
+
+### Store Background Image url
 
 Add a background image.
 
-### Store Background Color *(optional)*
+### Store Background Color
 
-{{< alert icon="💡" text="Learn more about hex code →" ext-href="https://htmlcolorcodes.com/" >}}
+Or you can select a solid color from swatch or enter a [hex code](https://htmlcolorcodes.com/).
 
-You can easily select color from swatch or enter a hex code.
-
-### Page Header Height `NEW`
+### Page Header Height
 
 You can adjust height of your background image. Default is 100% and it will take up the entire screen.
 
-{{< img src="b_layout_1_21.png" >}}
+{{< alert icon="⚠️" text="The page height affects how much space for your store description, so don't make this area too small!" >}}
 
-### Out of Stock Message *(optional)*
+### Light Page Theme
 
-Text shown when the product has max_qty = 0.
+Check this box to make the font color of [store description](#store-description) from white to black.
 
-In catalog google sheet, when input "0" in the `max_qty` field the indicated product will show "Coming Soon!"
-on chopin app.
+### Category Bar Layout
+
+Choose your preferred category bar layout:
+
+- hide: won't show categories at all.
+- enlarge: default design with text under category image.
+- small: condensed design with text on image.
+
+Category image is the first image of the first product within that category.
+
+<!-- add category bar image {{< img src="" >}} -->
+
+{{< alert icon="💡" text="Learn more about our category bar design →" ext-href="https://apiobuild.com/blog/news-ui-updates/#new-ui-better-navigation" >}}
+
+### Out of Stock Message
+
+Text shown when the product has `max_qty` = 0.
+
+In catalog google sheet, when input "0" in the `max_qty` field the indicated product will show "Coming Soon!" on your chopin store.
 
 You can customize this text. For example, it can be "Coming Soon", "Back in October" etc.
 
@@ -80,9 +101,13 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 [Checkout Contact Information Docs →]({{< ref "contact-information" >}})
 
+## Payment Methods
+
+[Checkout Payment Methods Docs →]({{< ref "payments" >}})
+
 ## Shipping, Discount and Tax
 
-[Checkout Shipping, Discount and Tax Docs →]({{< ref "order-settings" >}})
+[Checkout Shipping, Discount and Tax Docs →](/docs/apps/chopin/order-settings/#shipping)
 
 ## Waitress API
 

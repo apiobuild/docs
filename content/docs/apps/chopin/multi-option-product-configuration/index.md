@@ -20,11 +20,7 @@ This is especially helpful if you are selling:
 - Crafts with different patterns
 - Events with different dates
 
-[Checkout How to Add Products with Single Option →]({{< ref "product-configuration" >}})
-
 [Checkout Demo Boutique Store →](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/74c00629-b2a7-4e52-b58a-c35deefa8adf)
-
-{{< alert icon="💡" text="Store layout for single option and multi options look a little different. We suggest you organize all multi option products together." >}}
 
 To configure multi option products, simply add the following columns to the catalog google sheet:
 
@@ -32,6 +28,8 @@ To configure multi option products, simply add the following columns to the cata
 - option:size
 - option:flavor
 - option:color
+
+[Review basic catalog google sheet configuration →]({{< ref "product-configuration" >}})
 
 ## Supported Option Display
 
@@ -45,7 +43,7 @@ There are 3 multi option display styles and you can configure up to 2:
 
 ### option:size
 
-This field doesn't have to be **sizes** (S, M, L or 5.5, 6, 6.5), it can also be different **styles**. The text you put in to the cell will appear below the product image in the **squared box**.
+This field doesn't have to be **sizes** (S, M, L or 5.5, 6, 6.5), it can also be different **styles**. The text you put in to the cell will appear in a **squared box**.
 
 `option:size` can be in any languages other than English, but cannot contain spaces. Dashes (-) is fine.
 
@@ -57,7 +55,7 @@ Same as above, this field doesn't have to be **flavors**. The text you put in to
 
 ### option:color
 
-There are two ways to indicate your product color, which will apprear in **circle**.
+There are two ways to indicate your product color, which will apprear in a **circle**.
 
 1. Color Name: Just enter a color (i.e. red, blue, black, etc.). You can refer to [this list](https://htmlcolorcodes.com/color-names/) to find names for specific colors (i.e. lightskyblue, olive, and more).
 
@@ -69,7 +67,9 @@ You also need to update `option:name` column to indicate which products belong t
 
 ### option:name
 
-Group the same products together by setting the same value in `option:name`. For example, a dress comes with two colors - white and yellow. The `option:name` fields for these two rows have to be the same, which are `dress`, so the app can identify these *two products* are actually *two options of the same product*.
+Group the same products together by setting the same value in `option:name`. 
+
+For example, a dress comes with two colors - white and yellow. The `option:name` fields for these two rows have to be the same, which are `dress`, so the app can identify these *two products* are actually *two options of the same product*.
 
 {{< alert icon="⚠️" text="Remember to follow the same rule of name field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed." >}}
 
@@ -126,6 +126,6 @@ Now you can see different style and sizing for this wool coat on the store!
 
 ## Summary
 
-With Chopin, it's really easy to manage thousands products in google sheet. You might need to add product variants in bulk or duplicate it from exiting variants. You don't need to follow complex instructions, just copy and paste the data in your desired way! Try Chopin today and you will be amazed by how easy it is!
+With Chopin, it's really easy to manage thousands of products in Google Sheet. You might want to add product variants in bulk or duplicate it from exiting variants. You don't need to follow complex instructions, just copy and paste the data in your desired way!
 
 Happy Adding More Products! 💰
