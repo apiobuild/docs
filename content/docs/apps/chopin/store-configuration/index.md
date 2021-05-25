@@ -15,7 +15,10 @@ toc: true
 
 [How to create a Chopin store →]({{< ref "create-new-store" >}})
 
-After the store is created. Go to [Chopin App on Telescope](https://telescope.apiobuild.com/app/chopin) to add customization and configuration for your store.
+After the store is created. Go to [Chopin App on Telescope](https://telescope.apiobuild.com/app/chopin) to add customization and configuration for your store. You can update this information anytime (except store name and waitress APIs) and the updates will be reflected in real-time.
+
+- Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i class="fas fa-trash"></i> (trash can sign) to delete the store completely.
+- Click <i class="fas fa-plus-circle"></i> (plus sign) to add new information and click <i class="fas fa-minus-circle"></i> (minus sign) to delete the information.
 
 ## Store Info
 
@@ -41,7 +44,7 @@ Styling with **markdown** is supported.
 
 Default font color is white. You can change it to black in the [Layout section](/docs/apps/chopin/store-configuration/#light-page-theme).
 
-{{< alert icon="💡" text="Learn more about markdown →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
+{{< alert icon="💡" text="Learn more about markdown →" ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 ### Announcement
 
@@ -79,7 +82,7 @@ Choose your preferred category bar layout:
 
 Category image is the first image of the first product within that category.
 
-<!-- add category bar image {{< img src="" >}} -->
+{{< img src="category_bar.png" >}}
 
 {{< alert icon="💡" text="Learn more about our category bar design →" ext-href="https://apiobuild.com/blog/news-ui-updates/#new-ui-better-navigation" >}}
 

@@ -45,7 +45,7 @@ Product names that will appear on the store page, they can be **any language, sy
 
 More information about the product. Styling with **markdown** is supported.
 
-{{< alert icon="💡" text="Markdown styling cheat sheet →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
+{{< alert icon="💡" text="What is Markdown →" ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 {{< alert icon="💡" text="You can add another line in cell by press ⌘ + Enter on a Mac or Ctrl + Enter on Windows" ext-href="https://support.google.com/docs/answer/46973?co=GENIE.Platform%3DDesktop&hl=en" >}}
 
@@ -68,6 +68,8 @@ Product price, no need to enter "$" (dollar sign).
 ### max_qty
 
 Maximum quantity that **one customer** can buy. If max_qty = 0, it will show out-of-stock message (default is `Coming Soon`) under the product.
+
+We support advanced inventory management that can prevent your from oversell. [Contact us to learn more!]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 {{< alert icon="💡" text="How to customize out-of-stock message →" ext-href="/docs/apps/chopin/store-configuration/#out-of-stock-message" >}}
 

@@ -13,35 +13,41 @@ weight: 270
 toc: true
 ---
 
-## Order Minimum
-
-Your customers' order total has to greater than the minimum amount set to be able to place the order.
-
+{{< img src="e_payment_button_21.png" >}}
 
 Each payment method will appear as a **button** on your store. If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like.
 
-Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
-{{< img src="e_payment_button_21.png" >}}
+## Order Minimum
+
+Your customers' order total has to be greater than the minimum amount set to be able to place the order.
+
+## Currency
+
+Store currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
+
+{{< alert icon="💡" text="Learn more about currency code →" ext-href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" >}}
 
 ## Online Payment Processors
 
-We currently support [Stripe](https://stripe.com/payments) as our online payment processor. This allows customers pay with credit cards.
+Integrating online payment platforms allows Chopin to **verify transactions and post the result in realtime** to order google sheet. Merchants will no longer have to manually confirm and verify each payment from customers.
+
+### Stripe
+
+We currently support [Stripe](https://stripe.com/payments) as online payment processor for our [Basic tier users](https://apiobuild.com/#pricing). This allows customers pay with credit cards and debit cards.
 
 [Contact us to integrate Stripe account with your Chopin store →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
-{{< alert icon="💡" text="Learn more about Stripe pricing →" ext-href="https://stripe.com/pricing" >}}
+Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted directly from your any payment you received via Stripe. apio doesn't take additional cut from your profits!
 
-Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted directly from your any payment you received via stripe. apio doesn't take additional cut from your profits! Click links below for more detailed pricing.
+{{< alert icon="💡" text="Learn more about Stripe pricing →" ext-href="https://stripe.com/pricing" >}}
 
 {{< alert icon="💡" text="Read more on Stripe vs Paypal →" rel-href="/docs/apps/chopin/troubleshoot/#difference-between-stripe-and-paypal-business" >}}
 
 <span style="display: none">
 - [PayPal](https://www.paypal.com/us/webapps/mpp/merchant-fees)
 </span>
-
-Integrating online payment platforms allows Chopin to **verify transactions and post the result in realtime** to order google sheet.
-Merchants will no longer have to manually confirm and verify each payment from customers.
 
 ## Offline (Manual) Payment Options
 
@@ -51,9 +57,11 @@ We also support popular manual payment options across North America. Manual paym
 
 {{< alert icon="💡" text="Learn more about Paypal.Me →" ext-href="https://www.paypal.com/paypalme/" >}}
 
-{{< alert icon="💡" text="Learn more about how to use create Paypal.Me →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme" >}}
+{{< alert icon="💡" text="Learn more about how to use create Paypal.Me link →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme" >}}
 
-Provide your Paypal.Me link. It should look like: `https://www.paypal.me/youraccount`. This is the only manual payment which we can auto-generate the order total amount for customers during checkout. We recommend it over other manual options.
+Provide your [Paypal.Me link](/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme). It should look like: `https://www.paypal.me/youraccount`. 
+
+If you accept manual payments, we recommend PayPal.Me as this is the only manual option that auto-generate the order total amount and payee information for customers during checkout.
 
 ### Zelle
 
@@ -73,11 +81,24 @@ Provide your Venmo handle.
 
 Provide your E-Transfer email or mobile number.
 
+### Revolut `NEW`
+
+{{< alert icon="💡" text="Learn more about Revolut →" ext-href="https://www.revolut.com/" >}}
+
+Provide your Revolut mobile number or handle.
+
 ### Pay at Pick-Up
 
 Check this box if you wish to collect payment when customers pick up their orders.
 
-### Collect on Delivery `NEW`
+### Collect on Delivery
 
 Check this box if you or courier will collect payment when the order is delivered to customers.
 
+## Configure with Confirmation Email
+
+{{< alert icon="💡" text="What does Confirmation Email look like  →" ext-href="https://apiobuild.com/blog/introducing-post-it-email-automation-service/#email-template" >}}
+
+We already pre-configure the payment instruction in confirmation emails for you. If you'd like to replace that information in another language or provide additional wording, you can customize the message in Order Settings under Custom Email Messages.
+
+[Read more about how to set up costom email message →](/docs/apps/chopin/email-confirmation/)
