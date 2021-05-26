@@ -53,6 +53,8 @@ We are always here to talk.
 
 [Contact customer support →](https://m.me/apiobuild)
 
+<a href="mailto:apiobuild@gmail.com">Email us →</a>  
+
 ## Contribute
 
 We are currently closed-source platform. However, we have ambitious plan to open-source our entire platform. <!-- [Signup here →](/developer-sign-up)-->

@@ -15,6 +15,8 @@ toc: true
 
 [Watch a three-minute tutorial video →](https://youtu.be/BWYpITLKzXI)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BWYpITLKzXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 1. Open Chopin Stores Flow
 
 Go to [Chopin Store Flow](https://telescope.apiobuild.com/flow/chopin-stores) on [Telescope](https://telescope.apiobuild.com/). Log in with your Google account.

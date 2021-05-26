@@ -21,6 +21,8 @@ toc: true
 
 [Check out a 10-min Chopin demo video →](https://youtu.be/fP28hxRr-FM)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fP28hxRr-FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Use Case
 
 There are many online store builders you can choose from. While the basic plan can be as low as $18 per month, these costs can add up quickly as the business grow. You’re already paying a lot of startup costs: web-hosting, domain name, email marketing, why add more monthly fees to your overhead?

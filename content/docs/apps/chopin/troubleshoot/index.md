@@ -124,7 +124,7 @@ Large images will slow down the Chopin store render time. Use services like [Tin
 
 ### Why my customers doesn't receive order confirmaion emails?
 
-Check the followings:
+Check if you complete the followings:
 
 - Grant us permission via [Post-It](https://telescope.apiobuild.com/app/post-it) with the Gmail account you attempt to send emails from
 - Select `Send Order Confirmation Email` under `Order Settings` section in [Chopin](https://telescope.apiobuild.com/app/chopin)
