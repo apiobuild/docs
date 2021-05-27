@@ -13,47 +13,67 @@ weight: 230
 toc: true
 ---
 
-By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat. To add and update products, go to catalog google sheet.
+By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat. 
+
+To add and update products, go to your **catalog google sheet**.
 
 {{< img src="default-products.png" >}}
 
-{{< alert icon="💡" text="You can find google sheet url on the Waitress API section of the Chopin App. <img src='waitress-api.png' style='width: 100%'> " >}}
+### catalog google sheet
 
 Edit product details by updating the following fields on the catalog google sheet:
 
-{{< alert icon="⚠️" text="There should not be any empty line(s) between rows" >}}
+{{< alert icon="⚠️" text="There should not be any empty line(s) between rows." >}}
 
-{{< alert icon="⚠️" text="Only items with valid 'name' and 'price' will be shown" >}}
+{{< alert icon="⚠️" text="Only items with valid <b>name</b> and <b>price</b> will be shown on your store." >}}
 
-### name
+You can find your catalog google sheet url on the Waitress API section of the Chopin App. Simply put `https://docs.google.com/spreadsheets/d/` + sheet id (selected area in image below) in the browser address bar.
 
-Unique name/id starts with any alphabet and contains **only dashes (-), underscores (_), and alphanumeric are allowed** for each product. No spaces.
+{{< img src="waitress-api.png" >}}
+
+### name (required)
+
+*Unique* name/id starts with any alphabet and contains **only dashes (-), underscores (_), and alphanumeric** for each product. No spaces.
+
+Example: `sku-132`, `cake_strawberry`,`a`
 
 ### nickname
 
 Product names that will appear on the store page, they can be **any language, symbol, and even emoji 🤩**.
 
-### description *(optional)*
+### description
 
-{{< alert icon="💡" text="Learn more about markdown →" ext-href="https://www.markdownguide.org/cheat-sheet/" >}}
+More information about the product. Styling with **markdown** is supported.
 
-More information about the product. Styling with markdown is supported.
+{{< alert icon="💡" text="What is Markdown →" ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
+
+{{< alert icon="💡" text="You can add another line in cell by press ⌘ + Enter on a Mac or Ctrl + Enter on Windows" ext-href="https://support.google.com/docs/answer/46973?co=GENIE.Platform%3DDesktop&hl=en" >}}
 
 ### image_url
 
-{{< alert icon="💡" text="Why is image url not working?" rel-href="/docs/apps/chopin/troubleshoot/#images" >}}
+URL of the product image(s). Multiple image urls can be separated by comma (,).
 
-url of the product image(s). Multiple image urls can be separated by comma (,).
+We recommend upload images to [an image hosting website](/docs/apps/chopin/troubleshoot/#how-can-i-create-image-url) instead of pulling images from Google Drive, Dropbox, or social media.
 
-### price
+Our default gif will appear on your store when there's no input in the image_url cell.
+
+{{< alert icon="💡" text="Why is image url not working? →" rel-href="/docs/apps/chopin/troubleshoot/#images" >}}
+
+### price (required)
 
 Product price, no need to enter "$" (dollar sign).
 
-### max_qty *(optional)*
+{{< alert icon="💡" text="How to update currency? →" ext-href="/docs/apps/chopin/order-settings/#currency-new" >}}
 
-Maximum quantity that **one customer** can buy. If max_qty = 0, it will show 'Coming Soon'
+### max_qty
 
-### category *(optional)*
+Maximum quantity that **one customer** can buy. If max_qty = 0, it will show out-of-stock message (default is `Coming Soon`) under the product.
+
+We support advanced inventory management that can prevent your from oversell. [Contact us to learn more!]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+
+{{< alert icon="💡" text="How to customize out-of-stock message →" ext-href="/docs/apps/chopin/store-configuration/#out-of-stock-message" >}}
+
+### category
 
 To allow customer to filter products. Multiple categories can be separated by comma (,).
 
@@ -64,3 +84,9 @@ Enter "x" (or any other characters), this product will not appear on your store.
 ### no_tax
 
 Enter "x" (or any other characters), sales tax won't apply to this product.
+
+### example
+
+{{< img src="catalog_sheet_ex1.png" >}}
+
+If you want to /docs/apps/chopin/multi-option-product-configuration/, you will need to add some more columns manually. Tap through the next page to learn how that work.

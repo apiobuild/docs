@@ -17,7 +17,7 @@ toc: true
 
 ### Email
 
-The email address is default to the email you used to sign into Telescope. You can update to a different email. The email address is also used to send order confirmation emails.
+The email address is default to the email you used to sign into Telescope. The email address is also used to send order confirmation emails. You can update to a different email.
 
 [How to Configure Order Confirmation Email →]({{< ref "email-confirmation" >}})
 

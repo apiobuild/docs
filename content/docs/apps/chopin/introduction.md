@@ -1,7 +1,7 @@
 ---
 title: "What's Chopin"
-description: "Chopin is an e-commerce app that creates online stores with google sheets and gmail. The app is created seeing small merchants collecting orders with google forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
-lead: "Chopin is an e-commerce app that creates online stores with google sheets and gmail. The app is created seeing small merchants collecting orders with google forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
+description: "Chopin is an e-commerce app that creates online stores with Google Sheets and Gmail. The app is created seeing small merchants collecting orders with Google Forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
+lead: "Chopin is an e-commerce app that creates online stores with Google Sheets and Gmail. The app is created seeing small merchants collecting orders with Google Forms. Chopin offers a better experience for both the shoppers and the merchants without introducing unnecessary complexity."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,13 +13,15 @@ weight: 210
 toc: true
 ---
 
-[Chopin by apio](https://chopin.apiobuild.com/) is a lightweight online store creator serveing lightweight online store web app with basic information and two google sheets (one for catalog and one for order).
+[Chopin by apio](https://chopin.apiobuild.com/) is a lightweight online store creator serveing lightweight online store web app with basic information and two Google Sheets (one for catalog and one for order).
 
 ## Demo
 
 [Go to demo store →](https://chopin.apiobuild.com/demo-store)
 
-[Learn more →](https://chopin.apiobuild.com/)
+[Check out a 10-min Chopin demo video →](https://youtu.be/fP28hxRr-FM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fP28hxRr-FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Use Case
 
@@ -42,11 +44,11 @@ Let Chopin help you get started.
 
 ## Features
 
-🛍️ [Latest Chopin Features →](https://apiobuild.com/tags/chopin/)
+[Latest Chopin Features →](https://apiobuild.com/tags/product-updates/)
 
 ### Free
 
-At [apio](https://apiobuild.com/), we believe that quality software should be accessible and affordable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads shown on your store. If you’re looking for an ads-free store with more powerful features, [we also offer Basic Plan](https://apiobuild.com/#pricing) for as low as $5 per month.
+At [apio](https://apiobuild.com/), we believe that quality software should be accessible and affordable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads shown on your store. If you’re looking for an ads-free store with more powerful features, [we also offer Basic Plan](https://apiobuild.com/#pricing) for as low as $10 per month.
 
 ### Use Google Sheets
 
@@ -74,7 +76,7 @@ We welcome third-party integrations and don’t want to tie you down with only t
 
 You can group products into categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily.
 
-For merchants with thousands of products, the chopin store is built-in with search feature that allows customers to search product fast and easy.
+For merchants with thousands of products, the chopin store is built-in with [search feature](https://apiobuild.com/blog/news-ui-updates/#search-product-easily) that allows customers to search product fast and easy.
 
 ### Manage Inventory
 
@@ -84,9 +86,11 @@ Chopin store is capable of advanced inventory management too! <a href="mailto:ap
 
 ### Payment Integration
 
-Chopin currently offers **[Stripe](https://stripe.com/payments)** for your customers to pay through credit cards. Integrating digital payments allows Chopin to **verify the transactions in realtime and post the result** to google sheet, so you don't have to manually confirm each payment or check the amount totals.
+Chopin currently offers **[Stripe](https://stripe.com/payments)** for your customers to pay through credit cards. Integrating digital payments allows Chopin to **verify the transactions in realtime and post the result** to Google Sheets, so you don't have to manually confirm each payment or check the amount totals.
 
-You can also provide your **[Zelle](https://www.zellepay.com/)**, **[Venmo](https://venmo.com/)**, or **[PayPal.Me](https://www.paypal.com/paypalme/)** account information as manual payment options. While these manual transactions can't be verified, we will record customers' payment method in the google sheet.
+You can also provide your **[Zelle](https://www.zellepay.com/)**, **[Venmo](https://venmo.com/)**, or **[PayPal.Me](https://www.paypal.com/paypalme/)** account information as manual payment options. While these manual transactions can't be verified automatically, we will record customers' payment method in the google sheet.
+
+{{< alert icon="💡" text="Full list of manual payments supported by Chopin →" rel-href="/docs/apps/chopin/payments/#offline-manual-payment-options" >}}
 
 ### Shipping and Discount Options
 
@@ -112,7 +116,6 @@ There are many communication channels designed for you and your customers to cre
 
 You also have the option to add announcement to broadcast important updates or discount information.
 
-
 {{< alert icon="💡" text="Read more about confirmation email →" rel-href="/docs/apps/chopin/email-confirmation/" >}}
 
 Each success order comes with a confirmation email sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
@@ -121,6 +124,6 @@ You can also add **Facebook messenger chat** to your store, where you can provid
 
 ## Summary
 
-Still not sure if Chopin is right for you? [Schedule a demo here →](https://chopin.apiobuild.com/)
+Still not sure if Chopin is right for you? [Schedule a demo here →](https://calendly.com/apiobuild)
 
 Happy Selling! 💰

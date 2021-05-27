@@ -53,6 +53,26 @@ Absolutely! Add a column to save notes or move the column so certain information
 
 We don't recommend deleting data (actual transactions, retiring products, etc), as they're valuable for future analysis. Instead, hide the rows you don't need (Select row(s) > Right Click > Click `Hide row`) .
 
+### Can I manually type in orders?
+
+Rather than manually typing in orders, we recommend you place another order from your Chopin store. So you can make sure to have a unique order number data for every order.
+
+{{< alert icon="⚠️" text="Do not copy and paste a previous order, as the order number will then duplicate. This will create confusion when analyzing order data." >}}
+
+### How to sort my orders?
+
+Each order consists of several lines of data in order google sheets. Sometimes when many orders come in simultaneously, the data won't be recorded in the right order. You can reorganize the orders by sorting `order_number` and `user_name` accordingly.
+
+1. Highlight the entire sheet or click `ctrl` + `a`.
+2. If your sheet includes a header row, freeze the first row.
+3. Click `Data` > `Sort range`.
+4. Click `Data has header row`.
+5. Select `order_number` to be sorted first, then click `Add another sort column`.
+6. Select `user_name` to be sorted.
+7. Click Sort.
+
+{{< alert icon="💡" text="See Google's Documentation on sort your data →" ext-href="https://support.google.com/docs/answer/3540681?co=GENIE.Platform%3DDesktop&hl=en" >}}
+
 ## Create Chopin Store on Telescope
 
 Follow the steps on [Chopin Flow](https://telescope.apiobuild.com/flow/chopin-stores). You must create **two** google sheets, share editor access with Waitress account, and authorize.
@@ -72,14 +92,13 @@ Pop-up blocker might disable the google sheet authorization login. Disable the p
 
 ### How can I create image url?
 
-Use image hosting services whenever you can. We recommend:
+Use image hosting services whenever you can. We recommend [Imgbb](https://imgbb.com/).
 
-- [Imgbb](https://imgbb.com/)
-- [img.onl](https://img.onl/)  
+After uploading an image to those websites, you should use **direct link** or **image url** that points to the actual image.
 
-After uploading an image to those websites, you will should use **direct link** or **image url** that points to the actual image.
+[A quick video guide for creating image URL →](https://youtu.be/fP28hxRr-FM?t=395)
 
-{{< img src="faq-image-link.png" >}}
+{{< img src="faq-imgbb.png" >}}
 
 ### Why the images are not shown properly?
 
@@ -101,17 +120,31 @@ On the page, right-click the image > Select `Copy Image Address`.
 
 Large images will slow down the Chopin store render time. Use services like [TinyPNG](https://tinypng.com/) to reduce the file size.
 
+## Confirmation Emails
+
+### Why my customers doesn't receive order confirmaion emails?
+
+Check if you complete the followings:
+
+- Grant us permission via [Post-It](https://telescope.apiobuild.com/app/post-it) with the Gmail account you attempt to send emails from
+- Select `Send Order Confirmation Email` under `Order Settings` section in [Chopin](https://telescope.apiobuild.com/app/chopin)
+- The email you put in the `Contact Information` section is the same as the one you authorize in Post-It
+
+### Can I customize the order confirmaion content?
+
+We support [custom subject line](/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
+
 ## Payments
 
 ### Difference between Stripe and PayPal Business?
 
 {{< alert icon="💡" text="Read a more about the differences →" ext-href="https://wpforms.com/stripe-vs-paypal-which-one-is-better/" >}}
 
-[Stripe](https://stripe.com/payments) and [PayPal Business](https://www.paypal.com/us/business/website-payments) both accept credit card payments and support realtime transaction verification with Chopin. **wWe recommend using Stripe** over PayPal Business.
+[Stripe](https://stripe.com/payments) and [PayPal Business](https://www.paypal.com/us/business/website-payments) both accept credit card payments and support realtime transaction verification with Chopin.
 
-{{< alert icon="💡" text="We recommend using Stripe over PayPal Business." >}}
+{{< alert icon="💡" text="We recommend using Stripe over PayPal Business and currently only support Stripe integration" >}}
 
-With Stripe, customers can enter their credit card information directly on the Chopin store. On the other hand, PayPal requires customers sign in or enter credit card information in a different pop-up window, this can sometimes can result to more abandoned orders.
+With Stripe, customers can enter their credit card information directly on the Chopin store. On the other hand, PayPal requires customers to sign in or enter credit card information in a different pop-up window, this can sometimes result in more abandoned orders.
 
 ### Difference between PayPal.Me and PayPal Business?
 
@@ -130,9 +163,23 @@ With Stripe, customers can enter their credit card information directly on the C
 
 ### How to get shortened url for my Chopin Store?
 
-[Upgrade to Basic Plan](https://apiobuild.com/#pricing) to get an apio branded url (`chopin.apiobuild.com/<store_name>`) for as low as $5/month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
+[Upgrade to Basic Plan](https://apiobuild.com/#pricing) to get an apio branded url (`chopin.apiobuild.com/<store_name>`) for as low as $10/month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
 
 {{< alert icon="💡" text="You can also use shortened url services like Bitly to create shortened Chopin Store url" ext-href="https://bitly.com/" >}}
+
+### What is Markdown?
+
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language for creating formatted text using a plain-text editor. In other words, you can use text to style text. 
+
+We support Markdown to style text in various sections, including [store description](/docs/apps/chopin/store-configuration/#store-description) in Chopin and [product description](/docs/apps/chopin/product-configuration/#description) in catalog google sheet.
+
+Some helpful guides:
+
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
+- [Learn Markdown in 60 secs](https://commonmark.org/help/)
+
+{{< alert icon="💡" text="To start a new paragraph, you need to make an empty line between paragraphs." >}}
 
 ### How to retrieve LINE url?
 
