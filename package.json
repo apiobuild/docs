@@ -50,7 +50,7 @@
     "rimraf": "^3.0",
     "standard-version": "^9.3",
     "stylelint": "^13.13",
-    "stylelint-config-standard": "^21.0"
+    "stylelint-config-standard": "^22.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3"
