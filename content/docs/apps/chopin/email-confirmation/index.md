@@ -21,7 +21,7 @@ Go to [Post-It](https://telescope.apiobuild.com/app/post-it) (apio\'s communicat
 - Log in to your Google account
 - Click `Allow` to grant apio access to send email on your behalf
 
-{{< alert icon="⚠️" text="If you'd like to send emails from an account that's not the one you use to log in Telescope, be sure to update Email in contact information section." ext-href="/docs/apps/chopin/contact-information/#email" >}}
+{{< alert icon="⚠️" text="If you'd like to send emails from an account that's not the one you use to log in Telescope, be sure to update Email in Contact Information section." ext-href="/docs/apps/chopin/contact-information/#email" >}}
 
 ## Custom Email Messages
 

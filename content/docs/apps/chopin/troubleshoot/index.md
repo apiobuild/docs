@@ -130,6 +130,8 @@ Check if you complete the followings:
 - Select `Send Order Confirmation Email` under `Order Settings` section in [Chopin](https://telescope.apiobuild.com/app/chopin)
 - The email you put in the `Contact Information` section is the same as the one you authorize in Post-It
 
+You can also try remove Gmail access and add it again in [Post-It](https://telescope.apiobuild.com/app/post-it).
+
 ### Can I customize the order confirmaion content?
 
 We support [custom subject line](/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
@@ -159,13 +161,23 @@ With Stripe, customers can enter their credit card information directly on the C
 3. Choose your unique url. It looks like this: PayPal.Me/YourBrand.
 4. You can also customize your profile in the [PayPal.Me settings](https://www.paypal.com/paypalme/my/settings), including profile photo, cover photo, and personal message.
 
+### I don't see the payment method I need
+
+Chopin supports [credit card](/docs/apps/chopin/payments/#online-payment-processors) and a wide list of [offline payment methods](/docs/apps/chopin/payments/#offline-manual-payment-options). We are always looking to support as many payment methods as we possibly could. [Reach out to us](/docs/introduction/introduction/#contact-us) to add new payment methods!
+
 ## Miscellaneous
+
+### Why am I seeing ads on my store?
+
+On our free tier, we use ads income to offset the hosting cost. We also offer [basic tier](https://apiobuild.com/#pricing) at USD$10 per month to remove ads (along with other perks).
+
+{{< alert icon="💡" text="Join apio basic tier now →" ext-href="https://telescope.apiobuild.com/settings/billing">}}
 
 ### How to get shortened url for my Chopin Store?
 
 [Upgrade to Basic Plan](https://apiobuild.com/#pricing) to get an apio branded url (`chopin.apiobuild.com/<store_name>`) for as low as $10/month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
 
-{{< alert icon="💡" text="You can also use shortened url services like Bitly to create shortened Chopin Store url" ext-href="https://bitly.com/" >}}
+You can also use shortened url services like [Bitly](https://bitly.com/) or [reurl](https://reurl.cc/main/en) to create shortened Chopin Store url.
 
 ### What is Markdown?
 

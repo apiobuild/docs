@@ -1,7 +1,7 @@
 ---
 title: "Payments"
-description: "Chopin supports both online and offline (manual) payment methods. While credit card is the mainstream payment method supported by most e-commerce platforms, we recognize many smaller businesses don't have POS or even a dedicated bank account. Therefore we have many customized payment options available. We are always looking to support as many payment methods as we possibly could. Reach out to us to add new payment methods."
-lead: "Chopin supports both online and offline (manual) payment methods. While credit card is the mainstream payment method supported by most e-commerce platforms, we recognize many smaller businesses don't have POS or even a dedicated bank account. Therefore we have many customized payment options available. We are always looking to support as many payment methods as we possibly could. Reach out to us to add new payment methods."
+description: "Chopin supports both and offline (manual) payment methods. While credit card is the mainstream payment method supported by most e-commerce platforms, we recognize many smaller businesses don't have POS or even a dedicated bank account. Therefore we have many customized payment options available."
+lead: "Chopin supports both online and offline (manual) payment methods. While credit card is the mainstream payment method supported by most e-commerce platforms, we recognize many smaller businesses don't have POS or even a dedicated bank account. Therefore we have many customized payment options available."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -16,6 +16,8 @@ toc: true
 {{< img src="e_payment_button_21.png" >}}
 
 Each payment method will appear as a **button** on your store. If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like.
+
+[Jump to payment method options →](#online-payment-processors)
 
 Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
@@ -39,9 +41,7 @@ We currently support [Stripe](https://stripe.com/payments) as online payment pro
 
 [Contact us to integrate Stripe account with your Chopin store →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
-Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted directly from your any payment you received via Stripe. apio doesn't take additional cut from your profits!
-
-{{< alert icon="💡" text="Learn more about Stripe pricing →" ext-href="https://stripe.com/pricing" >}}
+Stripe impose processing fee of **[2.9% + 30¢](https://stripe.com/pricing)**. The fee will be deducted directly from your any payment you received via Stripe. apio doesn't take additional cut from your profits!
 
 {{< alert icon="💡" text="Read more on Stripe vs Paypal →" rel-href="/docs/apps/chopin/troubleshoot/#difference-between-stripe-and-paypal-business" >}}
 
@@ -51,13 +51,15 @@ Stripe impose processing fee of **2.9% + 30¢**. The fee will be deducted direct
 
 ## Offline (Manual) Payment Options
 
-We also support popular manual payment options across North America. Manual payment means that the transaction will be handled outside of the Chopin checkout process and we won't be able to verify these payments on your behalf. The payment method selected by the customer will be posted to order google sheet.
+We also support popular manual payment options around the world. Manual payment means that the transaction will be handled outside of the Chopin checkout process and we won't be able to verify these payments on your behalf. The payment method selected by the customer will be posted to order google sheet.
 
-### Paypal.Me `NEW`
+We are always looking to support as many payment methods as we possibly could. [Reach out to us](https://apiobuild.com/docs/docs/introduction/introduction/#contact-us) to add new payment methods!
+
+### Paypal.Me
 
 {{< alert icon="💡" text="Learn more about Paypal.Me →" ext-href="https://www.paypal.com/paypalme/" >}}
 
-{{< alert icon="💡" text="Learn more about how to use create Paypal.Me link →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme" >}}
+{{< alert icon="💡" text="How to create Paypal.Me link →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme" >}}
 
 Provide your [Paypal.Me link](/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme). It should look like: `https://www.paypal.me/youraccount`. 
 
@@ -87,18 +89,36 @@ Provide your E-Transfer email or mobile number.
 
 Provide your Revolut mobile number or handle.
 
+### PayNow `NEW`
+
+{{< alert icon="💡" text="Learn more about PayNow →" ext-href="https://abs.org.sg/consumer-banking/pay-now" >}}
+
+Provide your mobile number, Singapore NRIC/FIN, or Virtual Payment Address (VPA).
+
+### Bank Transfer `NEW`
+
+Provide instruction on bank transfer, which might include name, bank address, account number, routing number, etc. If you need more space to provide detailed instruction, feel free to [customize the confirmation email message](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging).
+
+### Money Order `NEW`
+
+Provide instruction on who and where the money order should be mailed to.
+
 ### Pay at Pick-Up
 
-Check this box if you wish to collect payment when customers pick up their orders.
+Select this method, if you wish to collect payment when customers pick up their orders.
+
+No need to enter any details for this payment method. You can provide more instruction with [customized  confirmation email message](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging).
 
 ### Collect on Delivery
 
-Check this box if you or courier will collect payment when the order is delivered to customers.
+Select this payment method if you or the courier will collect payment when the order is delivered to customers.
+
+No need to enter any details for this payment method. You can provide more instruction with [customized  confirmation email message](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging).
 
 ## Configure with Confirmation Email
 
 {{< alert icon="💡" text="What does Confirmation Email look like  →" ext-href="https://apiobuild.com/blog/introducing-post-it-email-automation-service/#email-template" >}}
 
-We already pre-configure the payment instruction in confirmation emails for you. If you'd like to replace that information in another language or provide additional wording, you can customize the message in Order Settings under Custom Email Messages.
+We already pre-configure the payment instruction in confirmation emails for you, which includes order total, payment method, and account information. If you'd like to **replace** that information in another language or provide additional wording, you can customize the message in Order Settings under Custom Email Messages.
 
 [Read more about how to set up costom email message →](/docs/apps/chopin/email-confirmation/)
