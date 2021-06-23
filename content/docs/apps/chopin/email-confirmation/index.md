@@ -29,11 +29,13 @@ Go to [Post-It](https://telescope.apiobuild.com/app/post-it) (apio\'s communicat
 
 Go to `Order Settings` section in [Chopin app](https://telescope.apiobuild.com/app/chopin) to finish setting up custom email messages.
 
+No worries if you don't want to change subject line or don't have any custom message to add! The default wording already includes your store name, order number, the total amount, and payment instructions from Payment Method fields.
+
 ### Send Order Confirmation
 
 Enable this feature to send an automated email order confirmation after the customer place an order.
 
-{{< alert icon="⚠️" text="You must give us permission to send emails via Post-It" ext-href="https://telescope.apiobuild.com/app/post-it" >}}
+{{< alert icon="⚠️" text="You must give us permission to send emails via Post-It first!" ext-href="https://telescope.apiobuild.com/app/post-it" >}}
 
 ### Order Confirmation Email Subject
 
@@ -57,9 +59,9 @@ Default subject line is "Your Order from `<store_name>` [`<order_number>`]”.
    - Use `<total>` to indicate the total amount
    - Use `<method>` to indicate the applied payment method
    - Use `<handle>` to indicate the account information (handle,id, or phone number) of applied payment method
-   - To recreate PayPal.Me link, use the following: `<a href="<handle>/<total>" target="_blank">Paypal</a>`
+   - To recreate PayPal.Me link that automatically plug in the order total amount, use the following: `[Paypal.me]({{ .Handler }}/{{ .NumericTotal }})`
 
-{{< alert icon="💡" text="If you prefer the default wording but don't remember it, you can always delete the custom message rule" >}}
+{{< alert icon="💡" text="You can use Markdown to add links and style your texts." ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 **Example:**
 
