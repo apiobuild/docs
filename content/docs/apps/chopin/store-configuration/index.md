@@ -44,7 +44,7 @@ Styling with **markdown** is supported.
 
 Default font color is white. You can change it to black in the [Layout section]({{<ref "/docs/apps/chopin/store-configuration/index.md#light-page-theme" >}}).
 
-{{< alert icon="💡" text="Learn more about markdown →" ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
+{{< alert icon="💡" text="Learn more about markdown →" rel-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 ### Announcement
 

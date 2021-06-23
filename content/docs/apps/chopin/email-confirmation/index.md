@@ -21,7 +21,7 @@ Go to [Post-It](https://telescope.apiobuild.com/app/post-it) (apio\'s communicat
 - Log in to your Google account
 - Click `Allow` to grant apio access to send email on your behalf
 
-{{< alert icon="⚠️" text="If you'd like to send emails from an account that's not the one you use to log in Telescope, be sure to update Email in Contact Information section." ext-href="/docs/apps/chopin/contact-information/#email" >}}
+{{< alert icon="⚠️" text="If you'd like to send emails from an account that's not the one you use to log in Telescope, be sure to update Email in Contact Information section." rel-href="/docs/apps/chopin/contact-information/#email" >}}
 
 ## Custom Email Messages
 
@@ -56,12 +56,12 @@ Default subject line is "Your Order from `<store_name>` [`<order_number>`]”.
 - Field: We currently only support custom email based on different payment methods
 - Field Value: Choose the payment method that will apply this custom message
 - Email Message: Customize the content to **replace** default payment instruction in confirmation emails
-   - Use `<total>` to indicate the total amount
-   - Use `<method>` to indicate the applied payment method
-   - Use `<handle>` to indicate the account information (handle,id, or phone number) of applied payment method
-   - To recreate PayPal.Me link that automatically plug in the order total amount, use the following: `[Paypal.me]({{ .Handler }}/{{ .NumericTotal }})`
+  - Use `<total>` to indicate the total amount
+  - Use `<method>` to indicate the applied payment method
+  - Use `<handle>` to indicate the account information (handle,id, or phone number) of applied payment method
+  - To recreate PayPal.Me link that automatically plug in the order total amount, use the following: `[Paypal.me]({{ .Handler }}/{{ .NumericTotal }})`
 
-{{< alert icon="💡" text="You can use Markdown to add links and style your texts." ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
+{{< alert icon="💡" text="You can use Markdown to add links and style your texts." rel-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 **Example:**
 
