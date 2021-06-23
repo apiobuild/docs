@@ -56,12 +56,12 @@ Default subject line is "Your Order from `<store_name>` [`<order_number>`]”.
 - Field: We currently only support custom email based on different payment methods
 - Field Value: Choose the payment method that will apply this custom message
 - Email Message: Customize the content to **replace** default payment instruction in confirmation emails
-   - Use `<total>` to indicate the total amount
-   - Use `<method>` to indicate the applied payment method
-   - Use `<handle>` to indicate the account information (handle,id, or phone number) of applied payment method
-   - To recreate PayPal.Me link that automatically plug in the order total amount, use the following: `[Paypal.me]({{ .Handler }}/{{ .NumericTotal }})`
+  - Use `<total>` to indicate the total amount
+  - Use `<method>` to indicate the applied payment method
+  - Use `<handle>` to indicate the account information (handle,id, or phone number) of applied payment method
+  - To recreate PayPal.Me link that automatically plug in the order total amount, use the following: `[Paypal.me]({{ .Handler }}/{{ .NumericTotal }})`
 
-{{< alert icon="💡" text="You can use Markdown to add links and style your texts." ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
+{{< alert icon="💡" text="You can use Markdown to add links and style your texts." rel-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 **Example:**
 
