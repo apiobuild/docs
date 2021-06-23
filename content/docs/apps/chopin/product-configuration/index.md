@@ -63,7 +63,7 @@ Our default gif will appear on your store when there's no input in the image_url
 
 Product price, no need to enter "$" (dollar sign).
 
-{{< alert icon="💡" text="How to update currency? →" ext-href="/docs/apps/chopin/order-settings/#currency-new" >}}
+{{< alert icon="💡" text="How to update currency? →" rel-href="/docs/apps/chopin/order-settings/#currency-new" >}}
 
 ### max_qty
 
@@ -71,7 +71,7 @@ Maximum quantity that **one customer** can buy. If max_qty = 0, it will show out
 
 We support advanced inventory management that can prevent your from oversell. [Contact us to learn more!]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
-{{< alert icon="💡" text="How to customize out-of-stock message →" ext-href="/docs/apps/chopin/store-configuration/#out-of-stock-message" >}}
+{{< alert icon="💡" text="How to customize out-of-stock message →" rel-href="/docs/apps/chopin/store-configuration/#out-of-stock-message" >}}
 
 ### category
 
