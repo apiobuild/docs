@@ -63,7 +63,7 @@ Our default gif will appear on your store when there's no input in the image_url
 
 Product price, no need to enter "$" (dollar sign).
 
-{{< alert icon="💡" text="How to update currency? →" rel-href="/docs/apps/chopin/order-settings/#currency-new" >}}
+{{< alert icon="💡" text="How to update currency? →" rel-href="/docs/apps/chopin/payments/#currency" >}}
 
 ### max_qty
 
