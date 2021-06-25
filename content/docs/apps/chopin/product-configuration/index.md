@@ -13,13 +13,13 @@ weight: 230
 toc: true
 ---
 
-By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat. 
+By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat.
 
 To add and update products, go to your **catalog google sheet**.
 
 {{< img src="default-products.png" >}}
 
-### catalog google sheet
+### Catalog Google Sheet
 
 Edit product details by updating the following fields on the catalog google sheet:
 
