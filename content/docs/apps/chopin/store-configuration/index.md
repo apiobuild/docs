@@ -42,9 +42,9 @@ Let your customers know what your store is about: brand story, shipping/return p
 
 Styling with **markdown** is supported.
 
-Default font color is white. You can change it to black in the [Layout section](/docs/apps/chopin/store-configuration/#light-page-theme).
+Default font color is white. You can change it to black in the [Layout section]({{<ref "/docs/apps/chopin/store-configuration/index.md#light-page-theme" >}}).
 
-{{< alert icon="💡" text="Learn more about markdown →" ext-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
+{{< alert icon="💡" text="Learn more about markdown →" rel-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
 ### Announcement
 
@@ -110,7 +110,7 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 ## Shipping, Discount and Tax
 
-[Checkout Shipping, Discount and Tax Docs →](/docs/apps/chopin/order-settings/#shipping)
+[Checkout Shipping, Discount and Tax Docs →]({{<ref "/docs/apps/chopin/order-settings/index.md#shipping" >}})
 
 ## Waitress API
 
