@@ -13,7 +13,7 @@ weight: 260
 toc: true
 ---
 
-Don't see a customization that fits your need? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Didn't see a customization that fits your need? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Order Settings
 
@@ -33,7 +33,7 @@ By default, we only require customers to input in their email. You can check `Hi
 
 {{< alert icon="💡" text="We recommend using note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers." >}}
 
-You can also add customized fields, like dietary restriction, special request, etc.
+- Custom Fields: You can also add customized fields, like dietary restriction, special request, etc.
 
 {{< img src="custom_field.png" >}}
 

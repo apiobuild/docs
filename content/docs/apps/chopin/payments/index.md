@@ -61,7 +61,7 @@ We are always looking to support as many payment methods as we possibly could. [
 
 {{< alert icon="💡" text="How to create Paypal.Me link →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme" >}}
 
-Provide your [Paypal.Me link](/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme). It should look like: `https://www.paypal.me/youraccount`. 
+Provide your [Paypal.Me link](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/#how-to-set-up-paypalme). It should look like: `https://www.paypal.me/youraccount`.
 
 If you accept manual payments, we recommend PayPal.Me as this is the only manual option that auto-generate the order total amount and payee information for customers during checkout.
 

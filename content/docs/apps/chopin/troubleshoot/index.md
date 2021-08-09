@@ -33,17 +33,25 @@ Check if your image urls are [direct links](#why-the-images-are-not-shown-proper
 
 ### New orders are not aligned with previous orders
 
-`order_number` always has to be on the first column and cannot be hidden.
+- Check if your `order_number` is on A1 cell.
+- Make sure your title row (first column) is not hidden.
 
 ### Get notification when someone places an order?
 
 {{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop" >}}
 
-You can set up google sheet notification to get realtime updates on new order submission. On the top of your Order google sheet, click `Tools` > `Notification Rules`. Select "when" you want to receive notifications. 
+You can set up Google Sheets notification rule to get realtime updates on new order submission.
+
+1. On the top of your Order Google Sheet, click `Tools` > `Notification Rules`.
+2. Select `Any changes are made` under Notify me when…
+3. Choose "when" you want to receive notifications under Notify me with…
+   - `Email - daily digest` - Send a daily summary of all changes.
+   - `Email - right away` - Send an email for every change.
+4. Click `Save`.
 
 ### Can I add/move/hide columns on the order google sheet?
 
-{{< alert icon="⚠️" text="order_number always has to be on the first column and cannot be hidden." >}}
+{{< alert icon="⚠️" text="'order_number' cell always has to be on A1 and cannot be hidden." >}}
 
 Absolutely! Add a column to save notes or move the column so certain information can be displayed next to each other. **As long as you keep the title row**, Chopin will be able to populate data to matching fields.
 
@@ -55,7 +63,7 @@ We don't recommend deleting data (actual transactions, retiring products, etc), 
 
 ### Can I manually type in orders?
 
-Rather than manually typing in orders, we recommend you place another order from your Chopin store. So you can make sure to have a unique order number data for every order.
+We don't recommend to. Rather than manually typing in orders, we suggest you place another order from your Chopin store. So you can make sure to have a unique order number data for every order.
 
 {{< alert icon="⚠️" text="Do not copy and paste a previous order, as the order number will then duplicate. This will create confusion when analyzing order data." >}}
 
@@ -71,7 +79,7 @@ Each order consists of several lines of data in order google sheets. Sometimes w
 6. Select `user_name` to be sorted.
 7. Click Sort.
 
-{{< alert icon="💡" text="See Google's Documentation on sort your data →" ext-href="https://support.google.com/docs/answer/3540681?co=GENIE.Platform%3DDesktop&hl=en" >}}
+{{< alert icon="💡" text="See Google's Documentation on sorting data →" ext-href="https://support.google.com/docs/answer/3540681?co=GENIE.Platform%3DDesktop&hl=en" >}}
 
 ## Create Chopin Store on Telescope
 
@@ -134,7 +142,7 @@ You can also try remove Gmail access and add it again in [Post-It](https://teles
 
 ### Can I customize the order confirmaion content?
 
-We support [custom subject line](/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
+We support [custom subject line](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
 
 ## Payments
 
