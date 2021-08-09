@@ -67,6 +67,12 @@ We can validate customers' addresses based on a list or lists of zipcodes provid
 
 {{< img src="f_shipping.png" >}}
 
+### Delivery Country
+
+Select the eligible shipping/delivery countries. Only the selected countries will appear at checkour process.
+
+Default countries are matched with your [store currency](https://apiobuild.com/docs/docs/apps/chopin/payments/#currency), but feel free to modify as needed.
+
 ## Discount
 
 {{< img src="g_discount.png" >}}
