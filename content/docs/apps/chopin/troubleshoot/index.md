@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "chopin"
-weight: 290
+weight: 350
 toc: true
 ---
 
@@ -38,7 +38,7 @@ Check if your image urls are [direct links](#why-the-images-are-not-shown-proper
 
 ### Get notification when someone places an order?
 
-{{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop" >}}
+{{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588" >}}
 
 You can set up Google Sheets notification rule to get realtime updates on new order submission.
 
