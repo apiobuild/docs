@@ -15,7 +15,7 @@ toc: true
 
 ## Basic Tricks
 
-Here are some basic configurations to help you be more organized. Powered by Google Sheets, Chopin gives you more flexibilities to analyze your order data.
+Here are some basic configurations to help you be more organized. Powered by Google Sheets and provided with raw data, Chopin gives you more flexibilities to analyze your order data.
 
 {{< alert icon="💡" text="You can find more formulas, functions, and formatting options in Google's official  docs →" ext-href="https://support.google.com/docs/topic/9054603" >}}
 
@@ -85,6 +85,10 @@ Having the data automatically color code with the **conditional formatting** rul
    - Under "Formatting style, choose what the cell will look like when conditions are met.
 4. Click Done.
 
+You can be really creative and set up multiple conditional formatting to fit your needs!
+
+{{< alert icon="💡" text="Read more about conditional formatting on Google Support →" ext-href="https://support.google.com/docs/answer/78413" >}}
+
 #### Example
 
 1. If I'd like to see failed transactions, I could set up conditional formatting for the `event_type` column and make a rule that highlight cells if *text contains* "failed."
@@ -94,10 +98,6 @@ Having the data automatically color code with the **conditional formatting** rul
 2. If I want to see different shipping options in different colors, I could set up conditional formatting for the `order_shipping_option` column and make a rule for each options that change cell background if it text is exactly certain shipping options.
 
 {{< img src="gs-conformat-2.png" >}}
-
-You can be really creative and set up multiple conditional formatting to fit your needs!
-
-{{< alert icon="💡" text="Read more about conditional formatting on Google Support →" ext-href="https://support.google.com/docs/answer/78413" >}}
 
 ### Pivot Table
 
