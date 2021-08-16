@@ -33,7 +33,7 @@ Each order consists of multiple rows:
 
 The `order_number` and `order_number_short` will appear on all the rows that belong to the same order.
 
-Example:
+{{< img src="gs-order.png" >}}
 
 {{< alert icon="💡" text="You can sort the entire order sheet if you find the rows are not aligned →" rel-href="/docs/apps/chopin/troubleshoot/#how-to-sort-my-orders">}}
 
