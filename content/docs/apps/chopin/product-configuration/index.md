@@ -13,6 +13,8 @@ weight: 230
 toc: true
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w9IXo0i1xSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat.
 
 To add and update products, go to your **catalog google sheet**.
