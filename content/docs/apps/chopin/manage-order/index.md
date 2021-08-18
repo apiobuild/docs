@@ -2,8 +2,8 @@
 title: "Manage Order"
 description: "All transaction records will show on your Order Google Sheet. This page will show you how to understand your order data. You can easily view, organize, and analyze your data within Google Sheets."
 lead: "All transaction records will show on your Order Google Sheet. This page will show you how to understand your order data. You can easily view, organize, and analyze your data within Google Sheets."
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+date: 2021-08-18T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:

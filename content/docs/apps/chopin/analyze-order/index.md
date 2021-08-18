@@ -2,8 +2,8 @@
 title: "Analyze Order"
 description: "You can utilize functions and formulas within Google Sheets to help you organize and analyze your order data."
 lead: "You can utilize functions and formulas within Google Sheets to help you organize and analyze your order data."
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+date: 2021-08-018T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:

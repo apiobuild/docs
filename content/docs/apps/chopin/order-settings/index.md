@@ -3,7 +3,7 @@ title: "Order Settings"
 description: "Chopin comes with many custom order total calculation and validation settings. Merchants can take advantage of these options to customize order total calculation. We recommend using these rules whenever possible. In general, communicating these rules over descriptions is not only ineffective, it also causes unnecessary confusion to the shoppers (your customers)."
 lead: "Chopin comes with many custom order total calculation and validation settings. Merchants can take advantage of these options to customize order total calculation. We recommend using these rules whenever possible. In general, communicating these rules over descriptions is not only ineffective, it also causes unnecessary confusion to the shoppers (your customers)."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:

@@ -3,7 +3,7 @@ title: "Product Configuration"
 description: "Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet."
 lead: "Copy and paste product catalog from your existing system or simply edit the catalog google sheet to start adding product to your store. Store will update in real-time with the catalog google sheet."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:

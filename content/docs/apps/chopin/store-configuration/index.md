@@ -3,7 +3,7 @@ title: "Store Configuration"
 description: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
 lead: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:

@@ -3,7 +3,7 @@ title: "Troubleshooting"
 description: "This page contains commonly seen issues and questions from Chopin users."
 lead: "This page contains commonly seen issues and questions from Chopin users."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:
