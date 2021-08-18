@@ -13,7 +13,7 @@ weight: 260
 toc: true
 ---
 
-Didn't see a customization that fits your need? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Didn't see a customization that fits your need? [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Order Settings
 
@@ -71,7 +71,7 @@ We can validate customers' addresses based on a list or lists of zipcodes provid
 
 Select the eligible shipping/delivery countries. Only the selected countries will appear at checkour process.
 
-Default countries are matched with your [store currency](https://apiobuild.com/docs/docs/apps/chopin/payments/#currency), but feel free to modify as needed.
+Default countries are matched with your [store currency]({{< ref "/docs/apps/chopin/payments/index.md#currency" >}}), but feel free to modify as needed.
 
 ## Discount
 
@@ -83,7 +83,7 @@ Choose from the dropdown menu and set up a `dollar` value discount or a `percent
 
 ### Discount Category
 
-If you wish to apply discount to only specified category, put the desired [category name](/docs/apps/chopin/product-configuration/#category) here.
+If you wish to apply discount to only specified category, put the desired [category name]({{< ref "/docs/apps/chopin/product-configuration/index.md#category" >}}) here.
 
 ### Discount Threshold
 

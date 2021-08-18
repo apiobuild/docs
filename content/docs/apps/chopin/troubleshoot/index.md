@@ -9,11 +9,11 @@ images: []
 menu:
   docs:
     parent: "chopin"
-weight: 350
+weight: 310
 toc: true
 ---
 
-Not getting answers for your questions? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Not getting answers for your questions? [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Catalog Google Sheet
 
@@ -104,7 +104,7 @@ Use image hosting services whenever you can. We recommend [Imgbb](https://imgbb.
 
 After uploading an image to those websites, you should use **direct link** or **image url** that points to the actual image.
 
-[A quick video guide for creating image URL →](https://youtu.be/fP28hxRr-FM?t=395)
+[A quick video guide for creating image URL →](https://youtu.be/w9IXo0i1xSE?t=580)
 
 {{< img src="faq-imgbb.png" >}}
 
@@ -142,7 +142,7 @@ You can also try remove Gmail access and add it again in [Post-It](https://teles
 
 ### Can I customize the order confirmaion content?
 
-We support [custom subject line](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
+We support [custom subject line]({{< ref "/docs/apps/chopin/email-confirmation/index.md#order-confirmation-email-subject" >}}) and [custom messaging]({{< ref "/docs/apps/chopin/email-confirmation/index.md#configure-custom-email-messaging" >}}) based on payment method. Full customization coming soon!
 
 ## Payments
 
@@ -171,7 +171,7 @@ With Stripe, customers can enter their credit card information directly on the C
 
 ### I don't see the payment method I need
 
-Chopin supports [credit card](/docs/apps/chopin/payments/#online-payment-processors) and a wide list of [offline payment methods](/docs/apps/chopin/payments/#offline-manual-payment-options). We are always looking to support as many payment methods as we possibly could. [Reach out to us](/docs/introduction/introduction/#contact-us) to add new payment methods!
+Chopin supports [credit card]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to add new payment methods!
 
 ## Miscellaneous
 
@@ -189,9 +189,11 @@ You can also use shortened url services like [Bitly](https://bitly.com/) or [reu
 
 ### What is Markdown?
 
-[Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language for creating formatted text using a plain-text editor. In other words, you can use text to style text. 
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language for creating formatted text using a plain-text editor. In other words, you can use text to style text.
 
-We support Markdown to style text in various sections, including [store description](/docs/apps/chopin/store-configuration/#store-description) in Chopin and [product description](/docs/apps/chopin/product-configuration/#description) in catalog google sheet.
+We support Markdown to style text in various sections, including [store description]({{< ref "/docs/apps/chopin/store-configuration/index.md#store-description" >}}) in Chopin and [product description]({{< ref "/docs/apps/chopin/product-configuration/index.md#description" >}}) in catalog google sheet.
+
+[A quick video guide on editing product description with Markdown →](https://youtu.be/w9IXo0i1xSE?t=508)
 
 Some helpful guides:
 

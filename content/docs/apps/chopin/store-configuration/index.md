@@ -42,7 +42,7 @@ Let your customers know what your store is about: brand story, shipping/return p
 
 Styling with **markdown** is supported.
 
-Default font color is white. You can change it to black in the [Layout section]({{<ref "/docs/apps/chopin/store-configuration/index.md#light-page-theme" >}}).
+Default font color is white. You can change it to black in the [Layout section]({{< ref "/docs/apps/chopin/store-configuration/index.md#light-page-theme" >}}).
 
 {{< alert icon="💡" text="Learn more about markdown →" rel-href="/docs/apps/chopin/troubleshoot/#what-is-markdown" >}}
 
@@ -110,10 +110,10 @@ You can customize this text. For example, it can be "Coming Soon", "Back in Octo
 
 ## Shipping, Discount and Tax
 
-[Checkout Shipping, Discount and Tax Docs →]({{<ref "/docs/apps/chopin/order-settings/index.md#shipping" >}})
+[Checkout Shipping, Discount and Tax Docs →]({{< ref "/docs/apps/chopin/order-settings/index.md#shipping" >}})
 
 ## Waitress API
 
 These are auto-generated when the store was created.
 
-By default we use apio's own [Waitress API](https://telescope.apiobuild.com/app/waitress) as catalog and order APIs. We welcome you to bring your own API, [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).
+By default we use apio's own [Waitress API](https://telescope.apiobuild.com/app/waitress) as catalog and order APIs. We welcome you to bring your own API, [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}).

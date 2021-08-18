@@ -17,6 +17,10 @@ toc: true
 
 By default, [your store would look like below.](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) We are pretty sure you're not selling Cool Cat and Funny Cat.
 
+<!--
+TODO: create short url for this store
+-->
+
 To add and update products, go to your **catalog google sheet**.
 
 {{< img src="default-products.png" >}}
@@ -55,7 +59,7 @@ More information about the product. Styling with **markdown** is supported.
 
 URL of the product image(s). Multiple image urls can be separated by comma (,).
 
-We recommend upload images to [an image hosting website](/docs/apps/chopin/troubleshoot/#how-can-i-create-image-url) instead of pulling images from Google Drive, Dropbox, or social media.
+We recommend upload images to [an image hosting website]({{< ref "/docs/apps/chopin/troubleshoot/index.md#how-can-i-create-image-url" >}}) instead of pulling images from Google Drive, Dropbox, or social media.
 
 Our default gif will appear on your store when there's no input in the image_url cell.
 
@@ -71,7 +75,7 @@ Product price, no need to enter "$" (dollar sign).
 
 Maximum quantity that **one customer** can buy. If max_qty = 0, it will show out-of-stock message (default is `Coming Soon`) under the product.
 
-We support advanced inventory management that can prevent your from oversell. [Contact us to learn more!]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+We support advanced inventory management that can prevent your from oversell. [Contact us to learn more!]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 {{< alert icon="💡" text="How to customize out-of-stock message →" rel-href="/docs/apps/chopin/store-configuration/#out-of-stock-message" >}}
 

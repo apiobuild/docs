@@ -60,25 +60,25 @@ The `order_number` and `order_number_short` will appear on all the rows that bel
 ### Order Details
 
 - order_subtotal: Order subtotal that doesn't include shipping costs and discounts.
-- order_shipping_option: [Shipping option](/docs/apps/chopin/order-settings/#shipping) selected by customer.
-- order_shipping: [Shipping cost](/docs/apps/chopin/order-settings/#shipping) applied to the order.
-- order_tax_rate: [Tax rate](/docs/apps/chopin/order-settings/#tax) applied to the order.
+- order_shipping_option: [Shipping option]({{< ref "/docs/apps/chopin/order-settings/index.md#shipping" >}}) selected by customer.
+- order_shipping: [Shipping cost]({{< ref "/docs/apps/chopin/order-settings/index.md#shipping" >}}) applied to the order.
+- order_tax_rate: [Tax rate]({{< ref "/docs/apps/chopin/order-settings/index.md#tax" >}}) applied to the order.
 - order_tax: Tax amount.
 - **order_total**: Order total that your customer should pay.
 
 ### Product Details
 
-- product_name: [Product name (id)](/docs/apps/chopin/product-configuration/#name-required) of the purchased product.
-- **product_nickname**: [Product nickname (display name)](/docs/apps/chopin/product-configuration/#nickname) of the purchased product.
+- product_name: [Product name (id)]({{< ref "/docs/apps/chopin/product-configuration/index.md#name-required" >}}) of the purchased product.
+- **product_nickname**: [Product nickname (display name)]({{< ref "/docs/apps/chopin/product-configuration/index.md#nickname" >}})of the purchased product.
 - product_qty: Quantity of the purchased product.
-- product_price: [Unit price](/docs/apps/chopin/product-configuration/#price-required) of the purchased products.
+- product_price: [Unit price]({{< ref "/docs/apps/chopin/product-configuration/index.md#price-required" >}}) of the purchased products.
 
 ### Payment Details
 
-- **payment_method**: [Payment method](https://apiobuild.com/docs/docs/apps/chopin/payments/) used for the order.
+- **payment_method**: [Payment method]({{< ref "payments" >}})used for the order.
 - event_created: When the event is created in UTC time.
 - order_created_sys: When the order is created in UTC time.
-- order_discount: [Discount amount](/docs/apps/chopin/order-settings/#discount) applied to the order.
+- order_discount: [Discount amount]({{< ref "/docs/apps/chopin/order-settings/index.md#discount" >}}) applied to the order.
 - **event_type**: [Event](#event-type) indicates different stages of the order, i.e. order_submitted, payment_submitted, etc.
 - event_description: Detailed description of the event.
 - payment_tracking_id: Stripe payment id that you can cross-refer in your Stripe account.
@@ -86,7 +86,7 @@ The `order_number` and `order_number_short` will appear on all the rows that bel
 
 ### Custom Fields
 
-If you collect additional information by setting up the [custom user input](/docs/apps/chopin/order-settings/#user-input-fields), you will see additional columns pops up automatically.
+If you collect additional information by setting up the [custom user input]({{< ref "/docs/apps/chopin/order-settings/index.md#user-input-fields" >}}), you will see additional columns pops up automatically.
 
 ## Event Type
 

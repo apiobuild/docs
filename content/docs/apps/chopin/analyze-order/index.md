@@ -91,11 +91,11 @@ You can be really creative and set up multiple conditional formatting to fit you
 
 #### Example
 
-1. If I'd like to see failed transactions, I could set up conditional formatting for the `event_type` column and make a rule that highlight cells if *text contains* "failed."
+1. If you'd like to see failed transactions, you could set up conditional formatting for the `event_type` column and make a rule that highlight cells if *text contains* "failed."
 
 {{< img src="gs-conformat-1.png" >}}
 
-2. If I want to see different shipping options in different colors, I could set up conditional formatting for the `order_shipping_option` column and make a rule for each options that change cell background if it text is exactly certain shipping options.
+2. If you want to see different shipping options in different colors, you could set up conditional formatting for the `order_shipping_option` column and make a rule for each options that change cell background if it text is exactly certain shipping options.
 
 {{< img src="gs-conformat-2.png" >}}
 
@@ -116,52 +116,54 @@ Pivot table is one of the most powerful and useful feature in Google Sheets that
 
 #### Example
 
-I'd like to run some analysis for my [dessert store](https://chopin.apiobuild.com/demo-store).
+To run analysis for this [dessert store](https://chopin.apiobuild.com/demo-store):
 
-1. I need to know the **quantity sold of each products** before I start baking, so I create a pivot table with the following set-up:
+1. You'd probably want to know the **quantity sold of each products** before baking, so you could create a pivot table with the following set-up:
 
    - Rows: `product_name` (sort by `COUNTA of product_qty`); `product_nickname`
    - Columns: *empty*
    - Values: `product_qty` (summarized by `COUNTA`)
   
-   With this table, I can clearly see I need to prepare 12 apple pies, 9 fruit sandwiches, 8 boba teas, etc.
+   With this table, you can clearly see you need to prepare 12 apple pies, 9 fruit sandwiches, 8 boba teas, etc.
 
    {{< img src="gs-pivottable-1.png" >}}
 
-2. Then, I'd like to see **who orders what** to be able to pack their purchase together.
+2. Then, you'd like to see **who orders what** to be able to pack their purchase together.
 
-   There's one additional step for all the analysis involving customers. Since the customer information only appears on the first row and not on the rows with purchased products. You need to fill the customer information to all the rows by:
+   **There's one additional step for all the analysis involving customers.** Since the customer information only appears on the first row and not on the rows with purchased products. You need to fill the customer information to all the rows by:
 
-   - Create a new column, called `user_name_filled` and input function `=if(ISBLANK(C2),D1, C2)`
+   - Create a new column, called `user_name_filled` and input function `=IF(ISBLANK(C2),D1, C2)`
       - C = the column of `user_name`
       - D = the newly created column of `user_name_filled`
-   - Then apply this formula to all the cells within that column
+   - Then apply this function to all the cells within that column
 
    {{< img src="gs-pivottable-2a.png" >}}
 
-   I create a new pivot table with the following set-up:
+   You could create a new pivot table with the following set-up:
 
    - Rows: `user_name_filled`; `product_nickname`
    - Columns: *empty*
    - Values: `product_qty` (summarized by `COUNTA`)
 
-   With this table, I can see everyone's order at once: For instance, Alex ordered 3 items total including 1 apple pie, 1 chocolate cake, and 1 mille feuille, etc.
+   With this table, you can see everyone's order at once: For instance, Alex ordered 3 items total including 1 apple pie, 1 chocolate cake, and 1 mille feuille, etc.
 
    {{< img src="gs-pivottable-2.png" >}}
 
 {{< alert icon="💡" text="You can use the ISBLANK function to fill the entry of other cells too, i.e. user_email, then add those variables to your pivot table Rows for viewing.">}}
 
-3. The pivot table is dynamic, which means it'll change according to our data in real time. I then want to **filter out the orders that I've fulfilled**.**
+1. The pivot table is dynamic, which means it'll change according to our data in real time. You could **filter out the orders that you've fulfilled**.**
 
-   First, I added a new column on my order sheet called, `fulfilled`. Let's say I finished baking for Bella's and Victor's orders. I put `x` in all of the coresponding cells in the `fulfilled` column.
+   First, to add a new column on the order sheet called, `fulfilled`. Let's pretend you finished baking for Bella's and Victor's orders. You'd put `x` in all of the coresponding cells in the `fulfilled` column.
 
    {{< img src="gs-pivottable-3a.png" >}}
 
-   Then I adjust the previous pivot table and add a filter:
+   Then you adjust the previous pivot table by adding a filter:
    - Filters: `Fulfilled` (showing `(Blanks)`)
 
-   Now, I don't see Bella's and Victor's orders in this pivot table anymore. The table only shows the orders that I need to fulfill.
+   Now, you wouldn't see Bella's and Victor's orders in this pivot table anymore. The table only shows the orders that you still need to fulfill.
 
-      {{< img src="gs-pivottable-3.png" >}}
+   {{< img src="gs-pivottable-3.png" >}}
 
-The above scenarios should cover most of the use cases when it comes to getting order ready to fulfill. There're many ways to organize and analyze your orders. Try different variable combinations, and you might discover interesting trends. Feel free to [contact us](https://apiobuild.com/docs/docs/introduction/introduction/#contact-us) if you have trouble getting the report you'd like to see.
+The above scenarios should cover most of the use cases when it comes to getting order ready to fulfill. There're many ways to organize and analyze your orders. Try different variable combinations, and you might discover interesting trends. 
+
+Feel free to [contact us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) if you have trouble getting the report you'd like to see.
