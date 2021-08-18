@@ -48,7 +48,7 @@ In order to use apio's platform services outside of Telescope, we require genera
    - Target Audience
      {{< alert icon="💡" text="Use http://localhost:port if you are testing locally." >}}
      This will be the domain you wish to use the token with. For example, we put `https://apiobuild.com/` for [the email form sign up form on apiobuild.com](https://apiobuild.com/#sign-up). You can always update audience as needed.
-3. Expand the token you just created. Paste the API route from [Step 1](/docs/apps/waitress/email-signup/#1-create-new-google-sheet), select `POST` and click ➕ button.  
+3. Expand the token you just created. Paste the API route from [Step 1](#1-create-new-google-sheet), select `POST` and click ➕ button.  
   {{< alert icon="💡" text="This means the token allows you to make post request to the API route from domain (audience) specified." >}}
 
 ## 3. Add HTML Form
@@ -184,4 +184,4 @@ Copy the Telescope Service Token and Waitress API Route into the following snipp
 
 ## Happy Emailing 📧
 
-That's it. We will continue to improve our process to make this even easier. Let us know if you run into any issue. [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).
+That's it. We will continue to improve our process to make this even easier. Let us know if you run into any issue. [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}).

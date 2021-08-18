@@ -3,7 +3,7 @@ title: "Order Settings"
 description: "Chopin comes with many custom order total calculation and validation settings. Merchants can take advantage of these options to customize order total calculation. We recommend using these rules whenever possible. In general, communicating these rules over descriptions is not only ineffective, it also causes unnecessary confusion to the shoppers (your customers)."
 lead: "Chopin comes with many custom order total calculation and validation settings. Merchants can take advantage of these options to customize order total calculation. We recommend using these rules whenever possible. In general, communicating these rules over descriptions is not only ineffective, it also causes unnecessary confusion to the shoppers (your customers)."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -13,7 +13,7 @@ weight: 260
 toc: true
 ---
 
-Don't see a customization that fits your need? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Didn't see a customization that fits your need? [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Order Settings
 
@@ -33,7 +33,7 @@ By default, we only require customers to input in their email. You can check `Hi
 
 {{< alert icon="💡" text="We recommend using note field to collect customization details (i.e. message to be put on the cake) as opposed a way to communicate about the order with your customers." >}}
 
-You can also add customized fields, like dietary restriction, special request, etc.
+- Custom Fields: You can also add customized fields, like dietary restriction, special request, etc.
 
 {{< img src="custom_field.png" >}}
 
@@ -67,6 +67,12 @@ We can validate customers' addresses based on a list or lists of zipcodes provid
 
 {{< img src="f_shipping.png" >}}
 
+### Delivery Country
+
+Select the eligible shipping/delivery countries. Only the selected countries will appear at checkour process.
+
+Default countries are matched with your [store currency]({{< ref "/docs/apps/chopin/payments/index.md#currency" >}}), but feel free to modify as needed.
+
 ## Discount
 
 {{< img src="g_discount.png" >}}
@@ -77,7 +83,7 @@ Choose from the dropdown menu and set up a `dollar` value discount or a `percent
 
 ### Discount Category
 
-If you wish to apply discount to only specified category, put the desired [category name](/docs/apps/chopin/product-configuration/#category) here.
+If you wish to apply discount to only specified category, put the desired [category name]({{< ref "/docs/apps/chopin/product-configuration/index.md#category" >}}) here.
 
 ### Discount Threshold
 

@@ -57,4 +57,4 @@ A great example is that we have helped our Chopin users to setup complex rules a
 
 ## Summary
 
-Thought of more use cases but not sure how to use it? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}}).
+Thought of more use cases but not sure how to use it? [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}).

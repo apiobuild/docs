@@ -3,17 +3,17 @@ title: "Troubleshooting"
 description: "This page contains commonly seen issues and questions from Chopin users."
 lead: "This page contains commonly seen issues and questions from Chopin users."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2021-08-18T08:48:57+00:00
 draft: false
 images: []
 menu:
   docs:
     parent: "chopin"
-weight: 290
+weight: 310
 toc: true
 ---
 
-Not getting answers for your questions? [Drop us a message →]({{<ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Not getting answers for your questions? [Drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Catalog Google Sheet
 
@@ -33,17 +33,25 @@ Check if your image urls are [direct links](#why-the-images-are-not-shown-proper
 
 ### New orders are not aligned with previous orders
 
-`order_number` always has to be on the first column and cannot be hidden.
+- Check if your `order_number` is on A1 cell.
+- Make sure your title row (first column) is not hidden.
 
 ### Get notification when someone places an order?
 
-{{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop" >}}
+{{< alert icon="💡" text="See Google's Documentation on Google Sheets Notification →" ext-href="https://support.google.com/docs/answer/91588" >}}
 
-You can set up google sheet notification to get realtime updates on new order submission. On the top of your Order google sheet, click `Tools` > `Notification Rules`. Select "when" you want to receive notifications. 
+You can set up Google Sheets notification rule to get realtime updates on new order submission.
+
+1. On the top of your Order Google Sheet, click `Tools` > `Notification Rules`.
+2. Select `Any changes are made` under Notify me when…
+3. Choose "when" you want to receive notifications under Notify me with…
+   - `Email - daily digest` - Send a daily summary of all changes.
+   - `Email - right away` - Send an email for every change.
+4. Click `Save`.
 
 ### Can I add/move/hide columns on the order google sheet?
 
-{{< alert icon="⚠️" text="order_number always has to be on the first column and cannot be hidden." >}}
+{{< alert icon="⚠️" text="'order_number' cell always has to be on A1 and cannot be hidden." >}}
 
 Absolutely! Add a column to save notes or move the column so certain information can be displayed next to each other. **As long as you keep the title row**, Chopin will be able to populate data to matching fields.
 
@@ -55,7 +63,7 @@ We don't recommend deleting data (actual transactions, retiring products, etc), 
 
 ### Can I manually type in orders?
 
-Rather than manually typing in orders, we recommend you place another order from your Chopin store. So you can make sure to have a unique order number data for every order.
+We don't recommend to. Rather than manually typing in orders, we suggest you place another order from your Chopin store. So you can make sure to have a unique order number data for every order.
 
 {{< alert icon="⚠️" text="Do not copy and paste a previous order, as the order number will then duplicate. This will create confusion when analyzing order data." >}}
 
@@ -71,7 +79,7 @@ Each order consists of several lines of data in order google sheets. Sometimes w
 6. Select `user_name` to be sorted.
 7. Click Sort.
 
-{{< alert icon="💡" text="See Google's Documentation on sort your data →" ext-href="https://support.google.com/docs/answer/3540681?co=GENIE.Platform%3DDesktop&hl=en" >}}
+{{< alert icon="💡" text="See Google's Documentation on sorting data →" ext-href="https://support.google.com/docs/answer/3540681?co=GENIE.Platform%3DDesktop&hl=en" >}}
 
 ## Create Chopin Store on Telescope
 
@@ -96,7 +104,7 @@ Use image hosting services whenever you can. We recommend [Imgbb](https://imgbb.
 
 After uploading an image to those websites, you should use **direct link** or **image url** that points to the actual image.
 
-[A quick video guide for creating image URL →](https://youtu.be/fP28hxRr-FM?t=395)
+[A quick video guide for creating image URL →](https://youtu.be/w9IXo0i1xSE?t=580)
 
 {{< img src="faq-imgbb.png" >}}
 
@@ -134,7 +142,7 @@ You can also try remove Gmail access and add it again in [Post-It](https://teles
 
 ### Can I customize the order confirmaion content?
 
-We support [custom subject line](/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject) and [custom messaging](/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging) based on payment method. Full customization coming soon!
+We support [custom subject line]({{< ref "/docs/apps/chopin/email-confirmation/index.md#order-confirmation-email-subject" >}}) and [custom messaging]({{< ref "/docs/apps/chopin/email-confirmation/index.md#configure-custom-email-messaging" >}}) based on payment method. Full customization coming soon!
 
 ## Payments
 
@@ -163,7 +171,7 @@ With Stripe, customers can enter their credit card information directly on the C
 
 ### I don't see the payment method I need
 
-Chopin supports [credit card](/docs/apps/chopin/payments/#online-payment-processors) and a wide list of [offline payment methods](/docs/apps/chopin/payments/#offline-manual-payment-options). We are always looking to support as many payment methods as we possibly could. [Reach out to us](/docs/introduction/introduction/#contact-us) to add new payment methods!
+Chopin supports [credit card]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to add new payment methods!
 
 ## Miscellaneous
 
@@ -181,9 +189,11 @@ You can also use shortened url services like [Bitly](https://bitly.com/) or [reu
 
 ### What is Markdown?
 
-[Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language for creating formatted text using a plain-text editor. In other words, you can use text to style text. 
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language for creating formatted text using a plain-text editor. In other words, you can use text to style text.
 
-We support Markdown to style text in various sections, including [store description](/docs/apps/chopin/store-configuration/#store-description) in Chopin and [product description](/docs/apps/chopin/product-configuration/#description) in catalog google sheet.
+We support Markdown to style text in various sections, including [store description]({{< ref "/docs/apps/chopin/store-configuration/index.md#store-description" >}}) in Chopin and [product description]({{< ref "/docs/apps/chopin/product-configuration/index.md#description" >}}) in catalog google sheet.
+
+[A quick video guide on editing product description with Markdown →](https://youtu.be/w9IXo0i1xSE?t=508)
 
 Some helpful guides:
 
