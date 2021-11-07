@@ -3,7 +3,7 @@ title: "Store Configuration"
 description: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
 lead: "Chopin works out of box without any further configuration. However, for those who'd like to add custom rules and business automations, we've made it easy to add customization and localization to work with businesses from all over the world."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2021-08-18T08:48:57+00:00
+lastmod: 2021-09-28T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -38,9 +38,9 @@ Give your store a logo. This image will also be the [favicon](https://en.wikiped
 
 ### Store Description
 
-Let your customers know what your store is about: brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters.
+Let your customers know what your store is about: brand story, shipping/return policy, or any information you'd like to include. Styling with **markdown** is supported.
 
-Styling with **markdown** is supported.
+Up to 1000 characters. You can share more details in the [Pages section]({{< ref "/docs/apps/chopin/store-configuration/index.md#pages" >}}).
 
 Default font color is white. You can change it to black in the [Layout section]({{< ref "/docs/apps/chopin/store-configuration/index.md#light-page-theme" >}}).
 
@@ -95,6 +95,19 @@ In catalog google sheet, when input "0" in the `max_qty` field the indicated pro
 You can customize this text. For example, it can be "Coming Soon", "Back in October" etc.
 
 {{< img src="b_layout_2.png" >}}
+
+### Pages
+
+`NEW`
+
+Create pages within your store to share your story or frequently asked questions. Shoppers can find the page(s) by clicking <i class="fas fa-bars"></i> (three bars) button on the left.
+
+- Page Title: Title will be shown on the left menu and the store URL.
+- Page Content: Anything you'd like to add to the page. You can style texts (bold, italicize, hyperlink, etc.), add images, or create lists/tables with [Markdown]({{< ref "/docs/apps/chopin/troubleshoot/index.md#what-is-markdown" >}}).
+
+See example in [Demo Store](https://chopin.apiobuild.com/demo-store/).
+
+{{< alert icon="💡" text="Watch this video guide and see how Markdown works →" ext-href="https://youtu.be/w9IXo0i1xSE?t=523" >}}
 
 ## Order Settings
 
