@@ -19,7 +19,7 @@ toc: false
 Una believes knowledge is power and has always been researching and sourcing great children's books from different parts of the world for her little boy. With her background and interests in performing arts, Una incorporates story-telling with fun craft and movement activities. Like many mompreneurs, Una started from sharing her story time with the local parents group in California. Eventually, more and more children around the world get to learn something new while having fun.
 
 >*Chopin's interface is very simple and not as sophisticated as other website builders. It's actually good for the business. I've never heard one parent can't figure out how to order and they can all find the information they need from my Chopin store. ... I really like Chopin's customer support! The support team always solves my questions in a timely manner and provides detailed instruction. Knowing you can get instant support from a website provider really gives me confidence to run an online business.*
-
+>
 > -- *Una, owner of Una's Story Time*
 
 ## Challenge
