@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Showcase"
-  url = "/showcase/chopin1"
+  url = "/showcase/atelierehoi"
   weight = 30
 
 [[docs]]
@@ -34,7 +34,7 @@
 [[showcase]]
   name = "Chopin"
   identifier = "chopin"
-  url = "/showcase/chopin1"
+  url = "/showcase/atelierehoi"
   weight = 10
 
 # [[main]]
