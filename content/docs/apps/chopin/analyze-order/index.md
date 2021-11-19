@@ -101,7 +101,7 @@ You can be really creative and set up multiple conditional formatting to fit you
 
 ### Pivot Table
 
-Pivot table is one of the most powerful and useful feature in Google Sheets that can summarize your data. You can easily see the quantity sold of each product or who orders whatat a glance.
+Pivot table is one of the most powerful and useful feature in Google Sheets that can summarize your data. You can easily see the quantity sold of each product or who orders what at a glance.
 
 1. Select the cells with source data you want to use. Important: You must include the header row.
 2. In the menu at the top, click `Data` and then `Pivot table`. Select `Insert to new sheet`.

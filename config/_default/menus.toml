@@ -8,6 +8,11 @@
   url = "/docs/introduction/introduction"
   weight = 20
 
+[[main]]
+  name = "Showcase"
+  url = "/showcase/atelierehoi"
+  weight = 30
+
 [[docs]]
   name = "Docs"
   identifier = "introduction"
@@ -25,6 +30,12 @@
   identifier = "waitress"
   url = "/docs/apps/waitress/"
   weight = 30
+
+[[showcase]]
+  name = "Chopin"
+  identifier = "chopin"
+  url = "/showcase/atelierehoi"
+  weight = 10
 
 # [[main]]
 #   name = "Blog"
