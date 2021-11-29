@@ -171,7 +171,7 @@ With Stripe, customers can enter their credit card information directly on the C
 
 ### I don't see the payment method I need
 
-Chopin supports [credit card]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to add new payment methods!
+Chopin supports [credit card payment via Stripe]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Fill out this request](https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E)(GitHub account required) or [reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to suggest a new payment method!
 
 ## Miscellaneous
 

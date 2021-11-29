@@ -19,7 +19,7 @@ Each payment method will appear as a **button** on your store. If you don't add 
 
 [Jump to payment method options →](#online-payment-processors)
 
-Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
+Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [fill out a request](https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E)(GitHub account required) or [drop us a message →]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}})
 
 ## Order Minimum
 
@@ -85,23 +85,35 @@ Provide your Venmo handle.
 
 Provide your E-Transfer email or mobile number.
 
-### Revolut `NEW`
+### Revolut
 
 {{< alert icon="💡" text="Learn more about Revolut →" ext-href="https://www.revolut.com/" >}}
 
 Provide your Revolut mobile number or handle.
 
-### PayNow `NEW`
+### PayNow
 
 {{< alert icon="💡" text="Learn more about PayNow →" ext-href="https://abs.org.sg/consumer-banking/pay-now" >}}
 
 Provide your mobile number, Singapore NRIC/FIN, or Virtual Payment Address (VPA).
 
-### Bank Transfer `NEW`
+### GCash `NEW`
+
+{{< alert icon="💡" text="Learn more about GCash →" ext-href="https://www.gcash.com/" >}}
+
+Provide your mobile number.
+
+### PayMaya `NEW`
+
+{{< alert icon="💡" text="Learn more about PayMaya →" ext-href="https://www.paymaya.com/" >}}
+
+Provide your mobile number.
+
+### Bank Transfer
 
 Provide instruction on bank transfer, which might include name, bank address, account number, routing number, etc. If you need more space to provide detailed instruction, feel free to [customize the confirmation email message]({{< ref "/docs/apps/chopin/email-confirmation/index.md#configure-custom-email-messaging" >}}).
 
-### Money Order `NEW`
+### Money Order
 
 Provide instruction on who and where the money order should be mailed to.
 
