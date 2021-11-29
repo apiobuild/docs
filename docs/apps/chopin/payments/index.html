@@ -119,10 +119,12 @@
 <li><a href=#zelle>Zelle</a></li>
 <li><a href=#venmo>Venmo</a></li>
 <li><a href=#e-transfer>E-transfer</a></li>
-<li><a href=#revolut-new>Revolut <code>NEW</code></a></li>
-<li><a href=#paynow-new>PayNow <code>NEW</code></a></li>
-<li><a href=#bank-transfer-new>Bank Transfer <code>NEW</code></a></li>
-<li><a href=#money-order-new>Money Order <code>NEW</code></a></li>
+<li><a href=#revolut>Revolut</a></li>
+<li><a href=#paynow>PayNow</a></li>
+<li><a href=#gcash-new>GCash <code>NEW</code></a></li>
+<li><a href=#paymaya-new>PayMaya <code>NEW</code></a></li>
+<li><a href=#bank-transfer>Bank Transfer</a></li>
+<li><a href=#money-order>Money Order</a></li>
 <li><a href=#pay-at-pick-up>Pay at Pick-Up</a></li>
 <li><a href=#collect-on-delivery>Collect on Delivery</a></li>
 </ul>
@@ -143,19 +145,21 @@
 <p><a href=#online-payment-processors>Jump to payment method options →</a>
 </p>
 <p>Visit our <a href=https://chopin.apiobuild.com/demo-store target=_blank>Demo Store</a>
-and see how they work in real world. If you don&rsquo;t see your preferred payment methods, <a href=https://apiobuild.com/docs/docs/introduction/introduction/#contact-us>drop us a message →</a>
+and see how they work in real world. If you don&rsquo;t see your preferred payment methods, <a href="https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E" target=_blank>fill out a request</a>
+(GitHub account required) or <a href=https://apiobuild.com/docs/docs/introduction/introduction/#contact-us>drop us a message →</a>
 </p>
 <h2 id=order-minimum>Order Minimum<a href=#order-minimum class=anchor aria-hidden=true>#</a> </h2>
 <p>Your customers' order total has to be greater than the minimum amount set to be able to place the order.</p>
 <h2 id=currency>Currency<a href=#currency class=anchor aria-hidden=true>#</a> </h2>
-<p>Store currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.</p>
+<p>Store currency is default to USD (US Dollar). Choose your preferred <a href=https://en.wikipedia.org/wiki/ISO_4217#Active_codes target=_blank>currency code</a>
+from the dropdown menu.</p>
+<p>We will match the shipping country based on your store currency, but you can still update your eligible shipping country in <a href=https://apiobuild.com/docs/docs/apps/chopin/order-settings/#delivery-country>Shipping</a>
+.</p>
 <div class="alert alert-warning d-flex" role=alert>
 <div class="flex-shrink-1 alert-icon">
 💡
 </div>
-<a href=https://en.wikipedia.org/wiki/ISO_4217#Active_codes target=_blank>
-<div class=w-100>Learn more about currency code →</div>
-</a>
+<div class=w-100>If you prefer no dollar sign at all, choose 'OSC'(Outer Space Currency) and you can have ⭐ (star sign) as your store currency.</div>
 </div>
 <h2 id=online-payment-processors>Online Payment Processors<a href=#online-payment-processors class=anchor aria-hidden=true>#</a> </h2>
 <p>Integrating online payment platforms allows Chopin to <strong>verify transactions and post the result in realtime</strong> to order google sheet. Merchants will no longer have to manually confirm and verify each payment from customers.</p>
@@ -180,8 +184,9 @@ as online payment processor for our <a href=https://apiobuild.com/#pricing targe
 </span>
 <h2 id=offline-manual-payment-options>Offline (Manual) Payment Options<a href=#offline-manual-payment-options class=anchor aria-hidden=true>#</a> </h2>
 <p>We also support popular manual payment options around the world. Manual payment means that the transaction will be handled outside of the Chopin checkout process and we won&rsquo;t be able to verify these payments on your behalf. The payment method selected by the customer will be posted to order google sheet.</p>
-<p>We are always looking to support as many payment methods as we possibly could. <a href=https://apiobuild.com/docs/docs/introduction/introduction/#contact-us>Reach out to us</a>
-to add new payment methods!</p>
+<p>We are always looking to support as many payment methods as we possibly could. <a href="https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E" target=_blank>Fill out this request</a>
+(GitHub account required) or <a href=https://apiobuild.com/docs/docs/introduction/introduction/#contact-us>reach out to us</a>
+to suggest a new payment method!</p>
 <h3 id=paypalme>Paypal.Me<a href=#paypalme class=anchor aria-hidden=true>#</a> </h3>
 <div class="alert alert-warning d-flex" role=alert>
 <div class="flex-shrink-1 alert-icon">
@@ -232,7 +237,7 @@ to add new payment methods!</p>
 </a>
 </div>
 <p>Provide your E-Transfer email or mobile number.</p>
-<h3 id=revolut-new>Revolut <code>NEW</code><a href=#revolut-new class=anchor aria-hidden=true>#</a> </h3>
+<h3 id=revolut>Revolut<a href=#revolut class=anchor aria-hidden=true>#</a> </h3>
 <div class="alert alert-warning d-flex" role=alert>
 <div class="flex-shrink-1 alert-icon">
 💡
@@ -242,7 +247,7 @@ to add new payment methods!</p>
 </a>
 </div>
 <p>Provide your Revolut mobile number or handle.</p>
-<h3 id=paynow-new>PayNow <code>NEW</code><a href=#paynow-new class=anchor aria-hidden=true>#</a> </h3>
+<h3 id=paynow>PayNow<a href=#paynow class=anchor aria-hidden=true>#</a> </h3>
 <div class="alert alert-warning d-flex" role=alert>
 <div class="flex-shrink-1 alert-icon">
 💡
@@ -252,10 +257,30 @@ to add new payment methods!</p>
 </a>
 </div>
 <p>Provide your mobile number, Singapore NRIC/FIN, or Virtual Payment Address (VPA).</p>
-<h3 id=bank-transfer-new>Bank Transfer <code>NEW</code><a href=#bank-transfer-new class=anchor aria-hidden=true>#</a> </h3>
+<h3 id=gcash-new>GCash <code>NEW</code><a href=#gcash-new class=anchor aria-hidden=true>#</a> </h3>
+<div class="alert alert-warning d-flex" role=alert>
+<div class="flex-shrink-1 alert-icon">
+💡
+</div>
+<a href=https://www.gcash.com/ target=_blank>
+<div class=w-100>Learn more about GCash →</div>
+</a>
+</div>
+<p>Provide your mobile number.</p>
+<h3 id=paymaya-new>PayMaya <code>NEW</code><a href=#paymaya-new class=anchor aria-hidden=true>#</a> </h3>
+<div class="alert alert-warning d-flex" role=alert>
+<div class="flex-shrink-1 alert-icon">
+💡
+</div>
+<a href=https://www.paymaya.com/ target=_blank>
+<div class=w-100>Learn more about PayMaya →</div>
+</a>
+</div>
+<p>Provide your mobile number.</p>
+<h3 id=bank-transfer>Bank Transfer<a href=#bank-transfer class=anchor aria-hidden=true>#</a> </h3>
 <p>Provide instruction on bank transfer, which might include name, bank address, account number, routing number, etc. If you need more space to provide detailed instruction, feel free to <a href=https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#configure-custom-email-messaging>customize the confirmation email message</a>
 .</p>
-<h3 id=money-order-new>Money Order <code>NEW</code><a href=#money-order-new class=anchor aria-hidden=true>#</a> </h3>
+<h3 id=money-order>Money Order<a href=#money-order class=anchor aria-hidden=true>#</a> </h3>
 <p>Provide instruction on who and where the money order should be mailed to.</p>
 <h3 id=pay-at-pick-up>Pay at Pick-Up<a href=#pay-at-pick-up class=anchor aria-hidden=true>#</a> </h3>
 <p>Select this method, if you wish to collect payment when customers pick up their orders.</p>
@@ -312,7 +337,7 @@ Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽
 </div>
 </footer>
 <script src=https://apiobuild.com/docs/main.min.cdcf0e9843cab79f71f0baa17d0d78da6f45296fd5cab89b5f8552a4b3d44a0d474ace10b2c6e6707d0d2105131652f732180963764e88ef11332f9eeb62abc2.js integrity="sha512-zc8OmEPKt59x8LqhfQ142m9FKW/VyribX4VSpLPUSg1HSs4QssbmcH0NIQUTFlL3MhgJY3ZOiO8RMy+e62Krwg==" crossorigin=anonymous defer></script>
-<script src=https://apiobuild.com/docs/index.min.fa549ce95245ce718f3c0a4e4315dc6cd30c28ea77612ee58ae9d8db64c9fa21b9ad0a20fa49a44a6fe08ad167694e11056f0da348f4b29a55e8e15801929e16.js integrity="sha512-+lSc6VJFznGPPApOQxXcbNMMKOp3YS7liunY22TJ+iG5rQog+kmkSm/gitFnaU4RBW8No0j0sppV6OFYAZKeFg==" crossorigin=anonymous defer></script>
+<script src=https://apiobuild.com/docs/index.min.4027d3bc474fd9f1a0efd2f1542913a7ba5b6c3b56dca24e1d644ed21a9d58bea34ba913505359605e96e30f6648ec25db734e1ee29bfd3df56c796c1bca4c02.js integrity="sha512-QCfTvEdP2fGg79LxVCkTp7pbbDtW3KJOHWRO0hqdWL6jS6kTUFNZYF6W4w9mSOwl23NOHuKb/T31bHlsG8pMAg==" crossorigin=anonymous defer></script>
 <script src=https://apiobuild.com/docs/js/fontawesome-free.min.d17e520baad1ede8806d94c5777d5293c859c4dc17fdff4d74caae4662df98ee3d188725d487b7847a49aa300de542aff2a8311faac538671efa24acb765a74b.js integrity="sha512-0X5SC6rR7eiAbZTFd31Sk8hZxNwX/f9NdMquRmLfmO49GIcl1Ie3hHpJqjAN5UKv8qgxH6rFOGce+iSst2WnSw==" crossorigin=anonymous defer></script>
 </body>
 </html>
