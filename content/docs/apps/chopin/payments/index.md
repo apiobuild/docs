@@ -27,9 +27,11 @@ Your customers' order total has to be greater than the minimum amount set to be 
 
 ## Currency
 
-Store currency is default to USD (US Dollar). Choose your preferred currency code from the dropdown menu.
+Store currency is default to USD (US Dollar). Choose your preferred [currency code](https://en.wikipedia.org/wiki/ISO_4217#Active_codes) from the dropdown menu.
 
-{{< alert icon="💡" text="Learn more about currency code →" ext-href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" >}}
+We will match the shipping country based on your store currency, but you can still update your eligible shipping country in [Shipping]({{< ref "docs/apps/chopin/order-settings/index.md#delivery-country" >}}).
+
+{{< alert icon="💡" text="If you prefer no dollar sign at all, choose 'OSC'(Outer Space Currency) and you can have ⭐ (star sign) as your store currency." >}}
 
 ## Online Payment Processors
 
