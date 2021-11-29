@@ -100,21 +100,21 @@ Pop-up blocker might disable the google sheet authorization login. Disable the p
 
 ### How can I create image url?
 
-Use image hosting services whenever you can. We recommend [Imgbb](https://imgbb.com/).
+Uploading your images to an image hosting service and you can get image url from there. We recommend [imgur](https://imgur.com/).
 
-After uploading an image to those websites, you should use **direct link** or **image url** that points to the actual image.
+After uploading an image, you should use **direct link** that points to the actual image.
 
-[A quick video guide for creating image URL →](https://youtu.be/w9IXo0i1xSE?t=580)
+⚠️ Images pulled directly from social media or Google Drive will not display properly.
 
-{{< img src="faq-imgbb.png" >}}
+{{< img src="faq-imgur.png" >}}
 
 ### Why the images are not shown properly?
 
-{{< alert icon="⚠️" text="Do not use image on google drive. Google can ban your account anytime if it's accessed too frequently." >}}
-
-{{< alert icon="⚠️" text="Do not use image from Facebook, Instagram or personal content on social media platforms. These platforms check browser cookies and the image will only work for you and stop working after a while." >}}
-
 Make sure the image url points to the actual image rather than an entire index, webpage, or website. You can put the url in browser to test it out. If you can see the image and only the image, then that's a working url.
+
+⚠️ Do not pull images from Google Drive. Google can ban your account anytime if it's accessed too frequently.
+
+⚠️ Do not use image from Facebook, Instagram or personal content on social media platforms. These platforms check browser cookies and the image will only work for you and stop working after a while.
 
 ### How to find image url from other websites?
 
@@ -171,7 +171,7 @@ With Stripe, customers can enter their credit card information directly on the C
 
 ### I don't see the payment method I need
 
-Chopin supports [credit card]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to add new payment methods!
+Chopin supports [credit card payment via Stripe]({{< ref "/docs/apps/chopin/payments/index.md#online-payment-processors" >}}) and a wide list of [offline payment methods]({{< ref "/docs/apps/chopin/payments/index.md#offline-manual-payment-options" >}}). We are always looking to support as many payment methods as we possibly could. [Fill out this request](https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E)(GitHub account required) or [reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to suggest a new payment method!
 
 ## Miscellaneous
 

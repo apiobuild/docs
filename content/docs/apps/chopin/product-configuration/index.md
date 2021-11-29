@@ -59,7 +59,7 @@ More information about the product. Styling with **markdown** is supported.
 
 URL of the product image(s). Multiple image urls can be separated by comma (,).
 
-We recommend upload images to [an image hosting website]({{< ref "/docs/apps/chopin/troubleshoot/index.md#how-can-i-create-image-url" >}}) instead of pulling images from Google Drive, Dropbox, or social media.
+We recommend upload images to [an image hosting website]({{< ref "/docs/apps/chopin/troubleshoot/index.md#how-can-i-create-image-url" >}}) (we suggest [imgur](https://imgur.com/)) instead of pulling images from Google Drive, Dropbox, or social media.
 
 Our default gif will appear on your store when there's no input in the image_url cell.
 
