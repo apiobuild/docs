@@ -100,21 +100,21 @@ Pop-up blocker might disable the google sheet authorization login. Disable the p
 
 ### How can I create image url?
 
-Use image hosting services whenever you can. We recommend [Imgbb](https://imgbb.com/).
+Uploading your images to an image hosting service and you can get image url from there. We recommend [imgur](https://imgur.com/).
 
-After uploading an image to those websites, you should use **direct link** or **image url** that points to the actual image.
+After uploading an image, you should use **direct link** that points to the actual image.
 
-[A quick video guide for creating image URL →](https://youtu.be/w9IXo0i1xSE?t=580)
+⚠️ Images pulled directly from social media or Google Drive will not display properly.
 
-{{< img src="faq-imgbb.png" >}}
+{{< img src="faq-imgur.png" >}}
 
 ### Why the images are not shown properly?
 
-{{< alert icon="⚠️" text="Do not use image on google drive. Google can ban your account anytime if it's accessed too frequently." >}}
-
-{{< alert icon="⚠️" text="Do not use image from Facebook, Instagram or personal content on social media platforms. These platforms check browser cookies and the image will only work for you and stop working after a while." >}}
-
 Make sure the image url points to the actual image rather than an entire index, webpage, or website. You can put the url in browser to test it out. If you can see the image and only the image, then that's a working url.
+
+⚠️ Do not pull images from Google Drive. Google can ban your account anytime if it's accessed too frequently.
+
+⚠️ Do not use image from Facebook, Instagram or personal content on social media platforms. These platforms check browser cookies and the image will only work for you and stop working after a while.
 
 ### How to find image url from other websites?
 
