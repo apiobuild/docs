@@ -55,7 +55,8 @@ Stripe impose processing fee of **[2.9% + 30¢](https://stripe.com/pricing)**. T
 
 We also support popular manual payment options around the world. Manual payment means that the transaction will be handled outside of the Chopin checkout process and we won't be able to verify these payments on your behalf. The payment method selected by the customer will be posted to order google sheet.
 
-We are always looking to support as many payment methods as we possibly could. [Reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to add new payment methods!
+We are always looking to support as many payment methods as we possibly could. [Fill out this request](https://github.com/apiobuild/requests/issues/new?assignees=l1990790120&labels=chopin%2Cadd-payment-method&template=add-payment-method.yaml&title=Add+Payment+Method%3A+%3Cname%3E)(GitHub account required) or [reach out to us]({{< ref "/docs/introduction/introduction/index.md#contact-us" >}}) to suggest a new payment method!
+
 
 ### Paypal.Me
 
